@@ -12,15 +12,15 @@ As a matter of fact you can run R in the notebook session, embed YouTube Videos,
 
 The science stack consists of:
 
-* pandas		dataframe implementation (based on numpy)
+* pandas -		dataframe implementation (based on numpy)
 
-* scipy			efficient numerical routines
+* scipy	-		efficient numerical routines
 
-* simpy			symbolic mathematics
+* simpy	-		symbolic mathematics
 
-* matplotlib	plotting
+* matplotlib -	plotting
 
-* sci-kit 		learn machine learning
+* sci-kit learn -		machine learning
 
 
 The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish the work done to 
