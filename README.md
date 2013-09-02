@@ -24,7 +24,7 @@ The talk will aim to introduce these tools and give some practical examples. Onc
 
 IPython in action in reproducible and publishable interactive work.
 
-[Talk GitHub Repo](https://github.com/Tooblippe/zapycon2013_ipython_science/)
+[The Complete Talk GitHub Repo can be found here](https://github.com/Tooblippe/zapycon2013_ipython_science/)
 
 Some interesting links
 -----------------------
