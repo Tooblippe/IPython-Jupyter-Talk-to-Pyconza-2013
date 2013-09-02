@@ -1,5 +1,7 @@
 IPython Notebook and the Python Scientific Stack
 -------------------------------------------------
+(This is still the talk proposal)
+
 > **IPython in action creating reproducible and publishable interactive work.**
 
 Description
