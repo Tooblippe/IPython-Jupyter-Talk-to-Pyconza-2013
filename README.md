@@ -1,5 +1,7 @@
 IPython Notebook and the Python Scientific Stack
 -------------------------------------------------
+> **IPython in action creating reproducible and publishable interactive work.**
+
 Description
 -------------
 IPython had become a popular choice for doing interactive scientific work. 
@@ -28,7 +30,6 @@ The talk will aim to introduce these tools and give some practical examples. Onc
 * pdf
 * or even a full presentation
 
-> **IPython in action in reproducible and publishable interactive work.**
 
 [The Complete Talk GitHub Repo can be found here](https://github.com/Tooblippe/zapycon2013_ipython_science/)
 
