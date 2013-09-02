@@ -1,6 +1,7 @@
-# IPython Notebook and the Python Scientific Stack
-
-## Description
+IPython Notebook and the Python Scientific Stack
+===================================================
+Description
+-------------
 IPython had become a popular choice for doing interactive scientific work. 
 In addition to this IPython offers a web based Notebook that makes interactive work much easier.
 Notebooks have been used to write repeatable science papers and more recently a book has been published using this platform, the online Notebook Viewer and GitHub.
