@@ -39,7 +39,8 @@ Some interesting links
 -----------------------
 * [A book written with IPython Notebook](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 * [Notebook Viewer](http://nbviewer.ipython.org/)
-* [Installing almost everything you need](http://www.continuum.io/downloads)
+* [Installing Anaconda - almost everything you need](http://www.continuum.io/downloads)
+* Also have a look at Enthought Python Distribution
 
 About Me
 ----------
