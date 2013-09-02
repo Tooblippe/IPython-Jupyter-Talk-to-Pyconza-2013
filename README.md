@@ -1,5 +1,5 @@
 IPython Notebook and the Python Scientific Stack
-===================================================
+-------------------------------------------------
 Description
 -------------
 IPython had become a popular choice for doing interactive scientific work. 
@@ -25,3 +25,6 @@ The talk will aim to introduce these tools and give some practical examples. Onc
 IPython in action in reproducible and publishable interactive work.
 
 Talk GitHub Repo - https://github.com/Tooblippe/zapycon2013_ipython_science/
+
+Some interesting links
+* (A book written with IPython Notebook)[http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/]
