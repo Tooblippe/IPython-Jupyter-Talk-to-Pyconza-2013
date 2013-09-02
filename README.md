@@ -10,7 +10,7 @@ IPython had become a popular choice for doing interactive scientific work.
 In addition to this IPython offers a web based Notebook that makes interactive work much easier.
 Notebooks have been used to write repeatable science papers and more recently a book has been published using this platform, the online Notebook Viewer and GitHub.
 
-Combining the most common science packages with IPython makes it a formidable tool and serious competition to R.(_R is still awesome!_)
+Combining the most common science packages with IPython makes it a formidable tool and serious competition to R. ( _R is still awesome!_ )
 
 As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more.
 
