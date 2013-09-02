@@ -34,7 +34,7 @@ Some interesting links
 
 About Me
 ----------
-* I am an Elecrical Engineer and is currently working for a [consutling firm](http://www.eon.co.za/index.php/our-services-main/our-services/business-analytics) were I manage the Business Analytics and Quantitative Decision Support Services division.
+* I am an Electrical Engineer and is currently working for a [consutling firm](http://www.eon.co.za/index.php/our-services-main/our-services/business-analytics) were I manage the Business Analytics and Quantitative Decision Support Services division.
 * I use python in my day to day work as a practical alternative to the limitations of EXCEL.
 * [LinkedIn](http://www.linkedin.com/in/tobienortje)
 * I am also a co-founder at [House4Hack](http://www.house4hack.co.za/)
