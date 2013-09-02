@@ -11,11 +11,17 @@ Combining the most common science packages with IPython makes it a formidable to
 As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more.
 
 The science stack consists of:
+
 * pandas		dataframe implementation (based on numpy)
+
 * scipy			efficient numerical routines
+
 * simpy			symbolic mathematics
+
 * matplotlib	plotting
+
 * sci-kit 		learn machine learning
+
 
 The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish the work done to 
 * html
