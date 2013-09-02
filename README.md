@@ -24,7 +24,10 @@ The talk will aim to introduce these tools and give some practical examples. Onc
 
 IPython in action in reproducible and publishable interactive work.
 
-Talk GitHub Repo - https://github.com/Tooblippe/zapycon2013_ipython_science/
+[Talk GitHub Repo](https://github.com/Tooblippe/zapycon2013_ipython_science/)
 
 Some interesting links
-* (A book written with IPython Notebook)[http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/]
+-----------------------
+* [A book written with IPython Notebook](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+* [Notebook Viewer](http://nbviewer.ipython.org/)
+* [Installing almost everything you need](http://www.continuum.io/downloads)
