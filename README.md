@@ -52,6 +52,7 @@ Talk contents
 -------
 
 format  | description
+------- | ------------
 IPython notebook  |  .ipynb file to run in browser
 IPython html notebook | converted to HTML and served online
 IPython pdf notebook  | converted to PDF for download
