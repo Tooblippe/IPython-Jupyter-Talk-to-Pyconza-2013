@@ -1,5 +1,6 @@
 IPython Notebook and the Python Scientific Stack
----------------------------------------------
+---
+
 (This is still the talk proposal)
 
 > **IPython in action creating reproducible and publishable interactive work.**
@@ -16,15 +17,15 @@ As a matter of fact you can run R in the notebook session, embed YouTube Videos,
 
 The science stack consists of:
 
-* pandas -		dataframe implementation (based on numpy)
+* [pandas][1] 	-		dataframe implementation (based on numpy)
 
-* scipy	-		efficient numerical routines
+* [scipy][2]	-		efficient numerical routines
 
-* simpy	-		symbolic mathematics
+* [sympy][3]	-		symbolic mathematics
 
-* matplotlib -	plotting
+* [matplotlib][4] -	plotting
 
-* sci-kit learn -		machine learning
+* [sci-kit learn][5] -		machine learning
 
 
 The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish the work done to 
@@ -33,18 +34,32 @@ The talk will aim to introduce these tools and give some practical examples. Onc
 * or even a full presentation
 
 
-[The Complete Talk GitHub Repo can be found here](https://github.com/Tooblippe/zapycon2013_ipython_science/)
+
+[The Complete Talk GitHub Repo can be found here][6]
 
 Some interesting links
 -----------------------
-* [A book written with IPython Notebook](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
-* [Notebook Viewer](http://nbviewer.ipython.org/)
-* [Installing Anaconda - almost everything you need](http://www.continuum.io/downloads)
-* Also have a look at Enthought Python Distribution
+* [A book written with IPython Notebook][7]
+* [Notebook Viewer][8]
+* [Installing almost everything you need][9]
 
 About Me
 ----------
-* I am an Electrical Engineer and is currently working for a [consulting firm](http://www.eon.co.za/index.php/our-services-main/our-services/business-analytics) where I manage the Business Analytics and Quantitative Decision Support Services division.
+* I am an Electrical Engineer and is currently working for a [consulting firm][10] where I manage the Business Analytics and Quantitative Decision Support Services division.
 * I use python in my day to day work as a practical alternative to the limitations of EXCEL in using large data sets.
-* [LinkedIn](http://www.linkedin.com/in/tobienortje)
-* I am also a co-founder at [House4Hack](http://www.house4hack.co.za/)
+* [LinkedIn][11]
+* I am also a co-founder at [House4Hack][12]
+
+
+  [1]: http://pandas.pydata.org/
+  [2]: http://www.scipy.org/
+  [3]: http://sympy.org/en/index.html
+  [4]: http://matplotlib.org/
+  [5]: http://scikit-learn.org/
+  [6]: https://github.com/Tooblippe/zapycon2013_ipython_science/
+  [7]: http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
+  [8]: http://nbviewer.ipython.org/
+  [9]: http://www.continuum.io/downloads
+  [10]: http://www.eon.co.za/index.php/our-services-main/our-services/business-analytics
+  [11]: http://www.linkedin.com/in/tobienortje
+  [12]: House4Hack%5D%28http://www.house4hack.co.za/
