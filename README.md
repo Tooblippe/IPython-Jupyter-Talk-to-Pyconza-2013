@@ -19,7 +19,7 @@ As a matter of fact you can run R in the notebook session, embed YouTube Videos,
 
 The science stack consists of (but not limited to):
 package  |  description
----------  |  -------------
+---  |  ---
 [pandas][1]  |  dataframe implementation (based on numpy)
 [scipy][2]  |  efficient numerical routines
 [sympy][3]  |  symbolic mathematics
