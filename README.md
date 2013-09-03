@@ -57,6 +57,7 @@ format  | description
 [IPython html notebook](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.html) | converted to HTML and served online
 IPython pdf notebook  | converted to PDF for download
 [Ipython reveal.js presentation](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.slides.html#/) | converted to a reveal.js presenation and served online
+[nbveiwer](http://nbviewer.ipython.org/urls/raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/pycon13_ipython.ipynb)  | view on the ipython notebook viewer
 
   [1]: http://pandas.pydata.org/
   [2]: http://www.scipy.org/
