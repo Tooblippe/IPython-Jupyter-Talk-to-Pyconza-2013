@@ -50,10 +50,12 @@ About Me
 
 Talk contents
 -------
-* IPython notebook 
-* IPython html notebook
-* IPython pdf notebook
-* Ipython reveal.js presentation
+
+format  | description
+IPython notebook  |  .ipynb file to run in browser
+IPython html notebook | converted to HTML and served online
+IPython pdf notebook  | converted to PDF for download
+Ipython reveal.js presentation | converted to a reveal.js presenation and served online
 
   [1]: http://pandas.pydata.org/
   [2]: http://www.scipy.org/
