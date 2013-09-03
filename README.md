@@ -21,11 +21,11 @@ The science stack consists of (but not limited to):
 
 package  |  description
 ---  |  ---
-[pandas][1]  |  dataframe implementation (based on numpy)
+[pandas][1]  |  `dataframe` implementation (based on numpy)
 [scipy][2]  |  efficient numerical routines
-[sympy][3]  |  symbolic mathematics
-[matplotlib][4]  |  plotting
-[sci-kit learn][5] | machine learning
+[sympy][3]  |  `symbolic mathematics`
+[matplotlib][4]  |  python standard `plotting` package
+[sci-kit learn][5] | machine learning and `well documented!`
 
 
 The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to 
