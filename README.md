@@ -1,9 +1,11 @@
-IPython Notebook and the Python Scientific Stack
+The IPython notebook and the Python scientific stack
 ---
 
-(This is still the talk proposal)
+> **[IPython](http://ipython.org/) in action creating reproducible and publishable interactive work.**
 
-> **IPython in action creating reproducible and publishable interactive work.**
+What is this
+------
+This is a proposal for a talk at [PyConZA2013](http://za.pycon.org/)
 
 Description
 -------------
@@ -28,12 +30,10 @@ The science stack consists of:
 * [sci-kit learn][5] -		machine learning
 
 
-The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish the work done to 
+The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to 
 * html
 * pdf
 * or even a full presentation
-
-
 
 [The Complete Talk GitHub Repo can be found here][6]
 
