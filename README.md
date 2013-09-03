@@ -64,7 +64,7 @@ IPython pdf notebook  | converted to PDF for download (to be added, needs pandoc
   [3]: http://sympy.org/en/index.html
   [4]: http://matplotlib.org/
   [5]: http://scikit-learn.org/
-  [6]: https://github.com/Tooblippe/zapycon2013_ipython_science/
+  [6]: http://tooblippe.github.io/zapycon2013_ipython_science
   [7]: http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
   [8]: http://nbviewer.ipython.org/
   [9]: http://www.continuum.io/downloads
