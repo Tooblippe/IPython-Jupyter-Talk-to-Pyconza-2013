@@ -17,17 +17,15 @@ Combining the most common science packages with IPython makes it a formidable to
 
 As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more.
 
-The science stack consists of:
+The science stack consists of (but not limited to):
 
-* [pandas][1] 	-		dataframe implementation (based on numpy)
-
-* [scipy][2]	-		efficient numerical routines
-
-* [sympy][3]	-		symbolic mathematics
-
-* [matplotlib][4] -	plotting
-
-* [sci-kit learn][5] -		machine learning
+package  |  description
+---  |  ---
+[pandas][1]  |  `dataframe` implementation (based on numpy)
+[scipy][2]  |  efficient numerical routines
+[sympy][3]  |  `symbolic mathematics`
+[matplotlib][4]  |  python standard `plotting` package
+[sci-kit learn][5] | machine learning and `well documented!`
 
 
 The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to 
@@ -52,10 +50,13 @@ About Me
 
 Talk contents
 -------
-* IPython notebook 
-* IPython html notebook
-* IPython pdf notebook
-* Ipython reveal.js presentation
+
+format  | description
+------- | ------------
+IPython notebook  |  .ipynb file to run in browser
+IPython html notebook | converted to HTML and served online
+IPython pdf notebook  | converted to PDF for download
+Ipython reveal.js presentation | converted to a reveal.js presenation and served online
 
   [1]: http://pandas.pydata.org/
   [2]: http://www.scipy.org/
