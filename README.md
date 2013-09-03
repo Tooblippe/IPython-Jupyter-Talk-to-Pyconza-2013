@@ -50,7 +50,12 @@ About Me
 * [LinkedIn][11]
 * I am also a co-founder at [House4Hack][12]
 
-[test](src/index.html)
+Talk contents
+-------
+* IPython notebook 
+* IPython html notebook
+* IPython pdf notebook
+* Ipython reveal.js presentation
 
   [1]: http://pandas.pydata.org/
   [2]: http://www.scipy.org/
