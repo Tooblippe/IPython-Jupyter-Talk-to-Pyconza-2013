@@ -41,7 +41,7 @@ Some interesting links
 * [Notebook Viewer][8]
 * [Installing almost everything you need][9]
 
-About Me
+About the presenter
 ----------
 * I am an Electrical Engineer and is currently working for a [consulting firm][10] where I manage the Business Analytics and Quantitative Decision Support Services division.
 * I use python in my day to day work as a practical alternative to the limitations of EXCEL in using large data sets.
