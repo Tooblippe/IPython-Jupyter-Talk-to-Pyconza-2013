@@ -39,7 +39,7 @@ Some interesting links
 -----------------------
 * [A book written with IPython Notebook][7]
 * [Notebook Viewer][8]
-* [Installing almost everything you need][9]
+* [Anaconda - Installing almost everything you need][9]
 
 About the presenter
 ----------
