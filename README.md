@@ -18,6 +18,7 @@ Combining the most common science packages with IPython makes it a formidable to
 As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more.
 
 The science stack consists of (but not limited to):
+
 package  |  description
 ---  |  ---
 [pandas][1]  |  dataframe implementation (based on numpy)
