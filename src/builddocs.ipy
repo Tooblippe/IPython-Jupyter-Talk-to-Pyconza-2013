@@ -21,12 +21,12 @@ debug = False
 # do the conversions
 #!cd C:\Users\tobie.nortje\Documents\GitHub\zapycon2013_ipython_science\src\
 
-!ipython nbconvert --to html   pycon13_ipython.ipynb
+!ipython nbconvert --to html --template full  pycon13_ipython.ipynb
 
 !ipython nbconvert --to slides pycon13_ipython.ipynb
 
 if pdf:
-    !ipython nbconvert --to latex pycon13_ipython.ipynb --post PDF
+    !ipython nbconvert --to latex --template book pycon13_ipython.ipynb --post PDF
 
 #move the html files 
 !move *.html output
@@ -38,7 +38,7 @@ if not debug:
     !del *.tex
     !del *.out
     !del *.idx
-
+    !del *.toc
 #stich the pdf with the frontpage
 !copy static\frontpage.pdf
 !pdftk *.pdf output finaldoc.pdf
