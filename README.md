@@ -59,9 +59,10 @@ Get the talk files here
 format  | description
 ------- | ------------
 [IPython notebook](https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.ipynb)  |  .ipynb file to run in browser
-[IPython html notebook](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.html) | converted to HTML and served online
-IPython pdf notebook  | converted to PDF for download (to be added, needs pandoc)
-[Ipython reveal.js presentation](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.slides.html#/) | converted to a reveal.js presenation and served online
+[IPython html notebook](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.html) | converted to HTML and served online
+[IPython pdf notebook](https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.pdf?raw=true)  | converted to PDF for download (to be added, needs pandoc)
+[IPython pdf book](https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/finaldoc.pdf?raw=true)  | converted to pdf and frontpage stitched to it)
+[Ipython reveal.js presentation](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.slides.html#/) | converted to a reveal.js presenation and served online
 [Online IPython NBveiwer](http://nbviewer.ipython.org/urls/raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/pycon13_ipython.ipynb)  | view on the ipython notebook viewer
 
 
@@ -92,4 +93,4 @@ About the presenter
   [9]: http://www.continuum.io/downloads
   [10]: http://www.eon.co.za/index.php/our-services-main/our-services/business-analytics
   [11]: http://www.linkedin.com/in/tobienortje
-  [12]: House4Hack%5D%28http://www.house4hack.co.za/
+  [12]: http://www.house4hack.co.za/
