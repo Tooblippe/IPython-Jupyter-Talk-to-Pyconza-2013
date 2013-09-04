@@ -59,9 +59,9 @@ Get the talk files here
 format  | description
 ------- | ------------
 [IPython notebook](https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.ipynb)  |  .ipynb file to run in browser
-[IPython html notebook](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.html) | converted to HTML and served online
-IPython pdf notebook  | converted to PDF for download (to be added, needs pandoc)
-[Ipython reveal.js presentation](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.slides.html#/) | converted to a reveal.js presenation and served online
+[IPython html notebook](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.html) | converted to HTML and served online
+[IPython pdf notebook](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.pdf/)  | converted to PDF for download (to be added, needs pandoc)
+[Ipython reveal.js presentation](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.slides.html#/) | converted to a reveal.js presenation and served online
 [Online IPython NBveiwer](http://nbviewer.ipython.org/urls/raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/pycon13_ipython.ipynb)  | view on the ipython notebook viewer
 
 
