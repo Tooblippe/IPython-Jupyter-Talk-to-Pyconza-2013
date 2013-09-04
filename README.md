@@ -1,4 +1,4 @@
-The IPython notebook and the Python scientific stack
+The IPython notebook and the Python science stack
 ---
 
 > **[IPython](http://ipython.org/) in action creating reproducible and publishable interactive work.**
@@ -49,7 +49,7 @@ About the presenter
 * [LinkedIn][11]
 * I am also a co-founder at [House4Hack][12]
 
-Talk contents
+Get the talk here
 -------
 
 format  | description
