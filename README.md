@@ -40,6 +40,8 @@ num | item   | description
 1  | setup  | how to go about installing the environment with the least ammount of pain
 1  | notebook magics | special notebook commands that can be very usefull
 1  | plotting	| how to create beautifull inline plots
+1  | symbolic math | quick demo of sympy model
+1  | typsetting | include markdown, Latex via MathJax
 1  | customising | loading a customer css and custom matplotlib config file
 1  | output formats | how to publish your work to html, pdf or jeveal.js presentation
 
