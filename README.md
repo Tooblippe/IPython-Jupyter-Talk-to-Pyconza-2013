@@ -37,11 +37,23 @@ The talk will aim to introduce these tools and give some practical examples. Onc
 * pdf
 * or even a full presentation
 
+Get the talk files here
+------
+format  | description
+------- | ------------
+[IPython notebook](https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.ipynb)  |  .ipynb file to run in browser
+[IPython html notebook](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.html) | converted to HTML and served online
+IPython pdf notebook  | converted to PDF for download (to be added, needs pandoc)
+[Ipython reveal.js presentation](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.slides.html#/) | converted to a reveal.js presenation and served online
+[Online IPython NBveiwer](http://nbviewer.ipython.org/urls/raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/pycon13_ipython.ipynb)  | view on the ipython notebook viewer
+
+
 Some interesting links
 -----------------------
 * [A book written with IPython Notebook][7]
 * [Notebook Viewer][8]
 * [Anaconda - Installing almost everything you need][9]
+
 
 About the presenter
 ----------
@@ -50,16 +62,7 @@ About the presenter
 * [LinkedIn][11]
 * I am also a co-founder at [House4Hack][12]
 
-Get the talk here
--------
 
-format  | description
-------- | ------------
-[IPython notebook](https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.ipynb)  |  .ipynb file to run in browser
-[IPython html notebook](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.html) | converted to HTML and served online
-IPython pdf notebook  | converted to PDF for download (to be added, needs pandoc)
-[Ipython reveal.js presentation](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.slides.html#/) | converted to a reveal.js presenation and served online
-[Online IPython NBveiwer](http://nbviewer.ipython.org/urls/raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/pycon13_ipython.ipynb)  | view on the ipython notebook viewer
 
   [1]: http://pandas.pydata.org/
   [2]: http://www.scipy.org/
