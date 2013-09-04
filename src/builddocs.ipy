@@ -16,6 +16,7 @@ You need to have
 """
 
 pdf = True   # pdf generation takes long
+debug = False
 
 # do the conversions
 #!cd C:\Users\tobie.nortje\Documents\GitHub\zapycon2013_ipython_science\src\
@@ -31,11 +32,12 @@ if pdf:
 !move *.html output
 
 #delete conversion files
-!del *.log
-!del *.aux
-!del *.tex
-!del *.out
-!del *.idx
+if not debug:
+    !del *.log
+    !del *.aux
+    !del *.tex
+    !del *.out
+    !del *.idx
 
 #stich the pdf with the frontpage
 !copy static\frontpage.pdf
