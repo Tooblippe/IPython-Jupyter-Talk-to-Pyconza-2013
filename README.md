@@ -1,7 +1,7 @@
 The IPython notebook and the Python science stack
 ---
 
-> **[IPython](http://ipython.org/) in action creating reproducible and publishable interactive work.**
+[IPython](http://ipython.org/) in action creating reproducible and publishable interactive work.
 
 What is this
 ------

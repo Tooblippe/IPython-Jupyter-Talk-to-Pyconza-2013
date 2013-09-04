@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+"""
+This file builds the docs on the Windows Platform
+
+run it with the command 'ipython builddocs.ipy'
+
+run it in the source directory.
+
+Remember to set your environment variables so all these commands can be run
+You need to have
+* ipyton v1.0
+* pandoc
+* MikeTex
+* pdftk
+
+"""
+
+pdf = True   # pdf generation takes long
+
+# do the conversions
+!cd C:\Users\tobie.nortje\Documents\GitHub\zapycon2013_ipython_science\src\
+!ipython nbconvert --to html pycon13_ipython.ipynb
+!ipython nbconvert --to slides pycon13_ipython.ipynb
+if pdf:
+    !ipython nbconvert --to latex pycon13_ipython.ipynb --post PDF
+
+#move the html files 
+!move *.html output
+
+#delete conversion files
+!del *.log
+!del *.aux
+!del *.tex
+!del *.out
+!del *.idx
+
+#stich the pdf with the frontpage
+!copy static\frontpage.pdf
+!pdftk *.pdf output finaldoc.pdf
+!del frontpage.pdf
+
+#move the generated pdfs to the frontpage
+!move *.pdf output
