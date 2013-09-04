@@ -43,6 +43,7 @@ num | item   | description
 1  | symbolic math | quick demo of sympy model
 1  | typsetting | include markdown, Latex via MathJax
 1  | customising | loading a customer css and custom matplotlib config file
+1  | git cell    | add code to a special cell that would commit to git
 1  | output formats | how to publish your work to html, pdf or jeveal.js presentation
 
 
