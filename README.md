@@ -93,4 +93,4 @@ About the presenter
   [9]: http://www.continuum.io/downloads
   [10]: http://www.eon.co.za/index.php/our-services-main/our-services/business-analytics
   [11]: http://www.linkedin.com/in/tobienortje
-  [12]: House4Hack%5D%28http://www.house4hack.co.za/
+  [12]: http://www.house4hack.co.za/
