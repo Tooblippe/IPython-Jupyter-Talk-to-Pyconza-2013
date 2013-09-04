@@ -34,6 +34,11 @@ Talk contents
 --------
 The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to :
 
+num | item   | description
+------ | ---- |  -------
+1  | what is this | quick intro
+2  | setup  | how to go about installing the environment with the least ammount of pain
+
 * html
 * pdf
 * or even a full presentation
