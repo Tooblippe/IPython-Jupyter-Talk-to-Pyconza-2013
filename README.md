@@ -43,6 +43,7 @@ num | item   | description
 1  | local files | how to link to local files in the notebook directory
 1  | plotting	| how to create beautifull inline plots
 1  | symbolic math | quick demo of sympy model
+1  | pandas  | quick intro to pandas dataframe
 1  | typsetting | include markdown, Latex via MathJax
 1  | loading code | how to load a remote .py code file
 1  | gist         | paste some of your work to gist for sharing
