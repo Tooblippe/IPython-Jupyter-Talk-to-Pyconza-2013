@@ -36,7 +36,7 @@ The talk will aim to introduce these tools and give some practical examples. Onc
 
 num | item   | description
 ------ | ---- |  -------
-1  | what is this | quick intro
+1  | ipython | quick intro to ipython and the notebook
 1  | setup  | how to go about installing the environment with the least ammount of pain
 1  | notebook magics | special notebook commands that can be very usefull
 1  | plotting	| how to create beautifull inline plots
