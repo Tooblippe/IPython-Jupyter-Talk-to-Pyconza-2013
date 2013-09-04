@@ -5,7 +5,10 @@ The IPython notebook and the Python scientific stack
 
 What is this
 ------
-This is a proposal for a talk at [PyConZA2013](http://za.pycon.org/)
+
+This repo contains the full [talk](http://za.pycon.org/talks/10/) at [PyConZA2013](http://za.pycon.org/)
+
+[The Complete Talk GitHub Website can be accessed here][6]
 
 Description
 -------------
@@ -32,8 +35,6 @@ The talk will aim to introduce these tools and give some practical examples. Onc
 * html
 * pdf
 * or even a full presentation
-
-[The Complete Talk GitHub Repo can be found here][6]
 
 Some interesting links
 -----------------------
