@@ -32,7 +32,8 @@ package  |  description
 
 Talk contents
 --------
-The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to 
+The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to :
+
 * html
 * pdf
 * or even a full presentation
