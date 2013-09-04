@@ -40,6 +40,7 @@ num | item   | description
 1  | setup  | set up your environment / get the talk files
 1  | notebook basics | navigate the notebook
 1  | notebook magics | special notebook commands that can be very usefull
+1  | local files | how to link to local files in the notebook directory
 1  | plotting	| how to create beautifull inline plots
 1  | symbolic math | quick demo of sympy model
 1  | typsetting | include markdown, Latex via MathJax
