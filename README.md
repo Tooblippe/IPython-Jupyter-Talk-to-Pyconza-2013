@@ -38,10 +38,13 @@ num | item   | description
 ------ | ---- |  -------
 1  | ipython | quick intro to ipython and the notebook
 1  | setup  | set up your environment / get the talk files
+1  | notebook basics | navigate the notebook
 1  | notebook magics | special notebook commands that can be very usefull
 1  | plotting	| how to create beautifull inline plots
 1  | symbolic math | quick demo of sympy model
 1  | typsetting | include markdown, Latex via MathJax
+1  | loading code | how to load a remote .py code file
+1  | gist         | paste some of your work to gist for sharing
 1  | customising | loading a customer css and custom matplotlib config file
 1  | git cell    | add code to a special cell that would commit to git
 1  | output formats | how to publish your work to html, pdf or jeveal.js presentation
