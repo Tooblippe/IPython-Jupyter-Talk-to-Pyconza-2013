@@ -76,7 +76,7 @@ pandoc 	 | The document converter used by IPythonr
 MikeTex  | If you want to do a TEX to PDF transform. I had so many issues with the TEX to PDF conversion by NBConvert, so settled for wkhtmltopdf(below) to convert HTML to PDF rather. (Convert notebook to HTML with NBconvert and then from HTML to PDF with wkhtmltopdf
 wkhtmltopdf  | Convert HTML to PDF
 pdftk   |  Can be used to combine PDF's. In this case add a frontpage to the generated IPython notebook PDF.
-ImageMagick | for compressing the PDF
+ImageMagick | for compressing the PDF.Still experimenting with this.
 GhostScript | needed by ImageMagick
 anaconda  | install anaconda from Continuum Analystics. Almost all the Python packages are included and it has a virtual environment manager via it's console application `conda'
 
