@@ -71,7 +71,7 @@ I was given the challenge to develop all of this on a Windows machine as some of
 
 package  |  description
 -------- | ------------
-IPython  | To use NBConvert you need V1.00. If you will only use the interactive notebook then v0.13 will be ok.
+IPython  | To use NBConvert you need V1.00. If you only want to use the interactive notebook then v0.13 will be ok.
 pandoc 	 | The document converter used by IPython
 MikeTex  | If you want to do a TEX to PDF transform. I had so many issues with the TEX to PDF conversion by NBConvert, so settled for wkhtmltopdf(below) to convert HTML to PDF rather. (Convert notebook to HTML with NBconvert and then from HTML to PDF with wkhtmltopdf
 wkhtmltopdf  | Convert HTML to PDF
