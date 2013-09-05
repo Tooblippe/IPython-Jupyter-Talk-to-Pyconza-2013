@@ -71,8 +71,11 @@ I was given the challenge to develop all of this on a Windows machine as some of
 
 package  |  description
 -------- | ------------
-pandoc |
-latex  |
+pandoc 	 | The document converter used by IPython
+MikeTex  | If you want to do a TEX to PDF transform. I had so many issues so settled for wkhtmltopdf(below) to convert HTML to PDF rather. 
+wkhtmltopdf  | Convert HTML to PDF
+pdftk   |  Can be used to combine PDF's. IN this case add a frontpage to the generated IPython notebook PDF.
+
 
 
 Some interesting links
