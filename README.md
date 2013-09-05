@@ -6,19 +6,18 @@ IPython Notebooks and the Python Scienctific Stack
 What is this?
 ------
 
-This repo contains the full [talk](http://za.pycon.org/talks/10/) at [PyConZA2013](http://za.pycon.org/). It contains all the files needed to build a final publishable PDF document and even adds a customer front page.
+This repo contains the full [talk](http://za.pycon.org/talks/10/) I indend to deliver (have delivered) at [PyConZA2013](http://za.pycon.org/). It contains all the files needed to build a final publishable PDF document and even adds a customer front page.
 
 [The Complete Talk GitHub Website can be accessed here][6]
 
-Description
+Background
 -------------
-IPython had become a popular choice for doing interactive scientific work. 
-In addition to this IPython offers a web based Notebook that makes interactive work much easier.
-Notebooks have been used to write repeatable science papers and more recently a book has been published using this platform, the online Notebook Viewer and GitHub.
+IPython had become a popular choice for doing interactive scientific work. It extends the standard Python interpreter and adds many usefull new futures. There is realy no need to use the standard Python interpreter anymore.
+In addition to this IPython offers a web based Notebook that makes interactive work much easier,and have been used to write repeatable science papers and more recently a book has been published using this platform, the online Notebook Viewer and GitHub. The development of this material and toolchain to compile the notebook to a publishable PDF has inspired me to maybe even try and turn this into a full book. Lets see what happens.
 
-Combining the most common science packages with IPython makes it a formidable tool and serious competition to R. ( _R is still awesome!_ )
+Combining the most common scientific packages with IPython makes it a formidable tool and serious competition to R. ( _R is still awesome!_ )
 
-As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more.
+As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more but let me not get ahead of myself....
 
 The science stack consists of (but not limited to):
 
@@ -32,7 +31,7 @@ package  |  description
 
 Talk contents
 --------
-The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to :
+The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to various formats. Some of the topics covered in the talk are lister below:
 
 item   | description
 ---- |  -------
