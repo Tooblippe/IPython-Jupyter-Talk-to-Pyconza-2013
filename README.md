@@ -80,7 +80,7 @@ anaconda  | install anaconda from Continuum Analystics. Almost all the Python pa
  
 How to run the Interactive Notebook
 --------
-Navigate to the `src` directory and call:
+Navigate to the `src` directory and run from the command line:
 
  ```python
       ipython notebook
