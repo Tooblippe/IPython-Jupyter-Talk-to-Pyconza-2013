@@ -3,13 +3,7 @@ IPython Notebooks and the Python Scienctific Stack
 
 [IPython](http://ipython.org/) in action creating reproducible and publishable interactive work.
 
-##### Table of Contents 
-
-[What is this](#What is this)
-[Description](#Description)
-
-
-What is this
+What is this?
 ------
 
 This repo contains the full [talk](http://za.pycon.org/talks/10/) at [PyConZA2013](http://za.pycon.org/)
