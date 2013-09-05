@@ -81,9 +81,11 @@ anaconda  | install anaconda from Continuum Analystics. Almost all the Python pa
 How to run the Interactive Notebook
 --------
 Navigate to the `src` directory and call:
- 
+
+ ```python
       ipython notebook
- 
+```
+
 If everything works your browser should open and you can select the `notebook` and start playing.
  
 PDF, HTML, SlideShow Final Build Script
