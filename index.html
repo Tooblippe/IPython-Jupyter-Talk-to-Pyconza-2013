@@ -32,27 +32,26 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h2>
-<a name="the-ipython-notebook-and-the-python-science-stack" class="anchor" href="#the-ipython-notebook-and-the-python-science-stack"><span class="octicon octicon-link"></span></a>The IPython notebook and the Python science stack</h2>
+<a name="ipython-notebooks-and-the-python-scienctific-stack" class="anchor" href="#ipython-notebooks-and-the-python-scienctific-stack"><span class="octicon octicon-link"></span></a>IPython Notebooks and the Python Scienctific Stack</h2>
 
 <p><a href="http://ipython.org/">IPython</a> in action creating reproducible and publishable interactive work.</p>
 
 <h2>
-<a name="what-is-this" class="anchor" href="#what-is-this"><span class="octicon octicon-link"></span></a>What is this</h2>
+<a name="what-is-this" class="anchor" href="#what-is-this"><span class="octicon octicon-link"></span></a>What is this?</h2>
 
-<p>This repo contains the full <a href="http://za.pycon.org/talks/10/">talk</a> at <a href="http://za.pycon.org/">PyConZA2013</a></p>
+<p>This repo contains the full <a href="http://za.pycon.org/talks/10/">talk</a> I indend to deliver (have delivered) at <a href="http://za.pycon.org/">PyConZA2013</a>. It contains all the files needed to build a final publishable PDF document and even adds a customer front page.</p>
 
 <p><a href="http://tooblippe.github.io/zapycon2013_ipython_science">The Complete Talk GitHub Website can be accessed here</a></p>
 
 <h2>
-<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>Description</h2>
+<a name="background" class="anchor" href="#background"><span class="octicon octicon-link"></span></a>Background</h2>
 
-<p>IPython had become a popular choice for doing interactive scientific work. 
-In addition to this IPython offers a web based Notebook that makes interactive work much easier.
-Notebooks have been used to write repeatable science papers and more recently a book has been published using this platform, the online Notebook Viewer and GitHub.</p>
+<p>IPython had become a popular choice for doing interactive scientific work. It extends the standard Python interpreter and adds many usefull new futures. There is realy no need to use the standard Python interpreter anymore.
+In addition to this IPython offers a web based Notebook that makes interactive work much easier,and have been used to write repeatable scientific papers and more recently a book has been written using this platform, the online Notebook Viewer and GitHub. The development of this material and toolchain to compile the notebook to a publishable PDF, has inspired me to maybe even try and turn this into a complete (free) book. Lets see what happens.</p>
 
-<p>Combining the most common science packages with IPython makes it a formidable tool and serious competition to R. ( <em>R is still awesome!</em> )</p>
+<p>Combining the most common scientific packages with IPython makes it a formidable tool and serious competition to R. ( <em>R is still awesome!</em> )</p>
 
-<p>As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more.</p>
+<p>As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more but let me not get ahead of myself....</p>
 
 <p>The science stack consists of (but not limited to):</p>
 
@@ -88,7 +87,7 @@ Notebooks have been used to write repeatable science papers and more recently a 
 </table><h2>
 <a name="talk-contents" class="anchor" href="#talk-contents"><span class="octicon octicon-link"></span></a>Talk contents</h2>
 
-<p>The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to :</p>
+<p>The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to various formats. Some of the topics covered in the talk are lister below:</p>
 
 <table>
 <thead><tr>
@@ -179,11 +178,11 @@ Notebooks have been used to write repeatable science papers and more recently a 
 <td>converted to HTML and served online</td>
 </tr>
 <tr>
-<td><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.pdf?raw=true">IPython pdf notebook</a></td>
+<td><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython_pdf.pdf?raw=true">IPython pdf notebook</a></td>
 <td>converted to PDF for download (to be added, needs pandoc)</td>
 </tr>
 <tr>
-<td><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/finaldoc.pdf?raw=true">IPython pdf book</a></td>
+<td><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython_complete.pdf?raw=true">IPython pdf book</a></td>
 <td>converted to pdf and frontpage stitched to it)</td>
 </tr>
 <tr>
@@ -196,6 +195,65 @@ Notebooks have been used to write repeatable science papers and more recently a 
 </tr>
 </tbody>
 </table><h2>
+<a name="dependancies" class="anchor" href="#dependancies"><span class="octicon octicon-link"></span></a>Dependancies</h2>
+
+<p>I was given the challenge to develop all of this on a Windows machine as some of my sponsers want to demostrate that this stuff can not only be done on GNU/Linux/OSX. So all the toolchains are Windows based. If you know Linux, then you are the type of person that would easily port this. That being said the Windows GitHub client is refressing.</p>
+
+<table>
+<thead><tr>
+<th>package</th>
+<th>description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>IPython</td>
+<td>To use NBConvert you need V1.00. If you only want to use the interactive notebook then v0.13 will be ok.</td>
+</tr>
+<tr>
+<td>pandoc</td>
+<td>The document converter used by IPythonr</td>
+</tr>
+<tr>
+<td>MikeTex</td>
+<td>If you want to do a TEX to PDF transform. I had so many issues with the TEX to PDF conversion by NBConvert, so settled for wkhtmltopdf(below) to convert HTML to PDF rather. (Convert notebook to HTML with NBconvert and then from HTML to PDF with wkhtmltopdf</td>
+</tr>
+<tr>
+<td>wkhtmltopdf</td>
+<td>Convert HTML to PDF</td>
+</tr>
+<tr>
+<td>pdftk</td>
+<td>Can be used to combine PDF's. In this case add a frontpage to the generated IPython notebook PDF.</td>
+</tr>
+<tr>
+<td>ImageMagick</td>
+<td>for compressing the PDF. Still experimenting with this.</td>
+</tr>
+<tr>
+<td>GhostScript</td>
+<td>needed by ImageMagick</td>
+</tr>
+<tr>
+<td>anaconda</td>
+<td>install anaconda from Continuum Analystics. Almost all the Python packages are included and it has a virtual environment manager via it's console application `conda'</td>
+</tr>
+</tbody>
+</table><h2>
+<a name="how-to-run-the-interactive-notebook" class="anchor" href="#how-to-run-the-interactive-notebook"><span class="octicon octicon-link"></span></a>How to run the Interactive Notebook</h2>
+
+<p>Navigate to the <code>src</code> directory and run from the command line:</p>
+
+<div class="highlight"><pre>      <span class="n">ipython</span> <span class="n">notebook</span>
+</pre></div>
+
+<p>If everything works your browser should open and you can select the <code>notebook</code> and start experimenting!</p>
+
+<h2>
+<a name="pdf-html-slideshow-build-script" class="anchor" href="#pdf-html-slideshow-build-script"><span class="octicon octicon-link"></span></a>PDF, HTML, SlideShow Build Script</h2>
+
+<p>There is a build script in the <code>src</code> directory. It is an IPython file. You can basicaly build shell scripts this way. To use the power of IPython commands save the file with the <code>.ipy' extension and call it with IPython. Even the magics work. To build the document use</code>ipython builddocs.ipy` You will have to change the paths to the software however.</p>
+
+<h2>
 <a name="some-interesting-links" class="anchor" href="#some-interesting-links"><span class="octicon octicon-link"></span></a>Some interesting links</h2>
 
 <ul>
