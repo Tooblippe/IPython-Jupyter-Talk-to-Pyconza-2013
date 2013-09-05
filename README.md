@@ -95,7 +95,7 @@ PDF, HTML, Slideshow Build Script
 ------------
 There is a build script in the `src` directory. It is an IPython file. You can basically build shell scripts this way. To use the power of IPython commands save the file with the `.ipy` extension and call it with IPython. Even the magic’s work. To build the document use `ipython builddocs.ipy` You will have to change the paths to the software however.
 
-Cross Platform Rendering
+Cross Platform Output Rendering
 --------
 I have tested the HTML outputs on my Galaxy S3 and S4, IPAD and Nexus7. They render very well. Even the downloaded PDF was easily readable on the NEXUS 7 in landscape mode. In conclusion the produces work is really very well packaged and easily consumed on most platforms. This is not bad, and all done with open source.
 
