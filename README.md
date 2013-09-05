@@ -65,6 +65,16 @@ format  | description
 [Online IPython NBveiwer](http://nbviewer.ipython.org/urls/raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/pycon13_ipython.ipynb)  | view on the ipython notebook viewer
 
 
+Dependancies
+-------------
+I was given the challenge to develop all of this on a Windows machine as some of my sponser want to demostrate that this stuff can not only be done on Linuz/OSX. So all the toolchains are Windows based. If you know Linux, then you are the type of person that would easily port this.
+
+package  |  description
+-------- | ------------
+pandoc |
+latex  |
+
+
 Some interesting links
 -----------------------
 * [A book written with IPython Notebook][7]
