@@ -86,7 +86,7 @@ Navigate to the `src` directory and run from the command line:
       ipython notebook
 ```
 
-If everything works your browser should open and you can select the `notebook` and start playing.
+If everything works your browser should open and you can select the `notebook` and start experimenting!
  
 PDF, HTML, SlideShow Final Build Script
 ------------
