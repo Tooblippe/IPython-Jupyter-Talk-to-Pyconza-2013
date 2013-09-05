@@ -93,7 +93,7 @@ If everything works your browser should open and you can select the `notebook` a
  
 PDF, HTML, SlideShow Build Script
 ------------
-There is a build script in the `src` directory. It is an IPython file. You can basicaly build shell scripts this way. To use the power of IPython commands save the file with the `.ipy' extension and call it with IPython. Even the magics work. To build the document use `ipython builddocs.ipy` You will have to change the paths to the software however.
+There is a build script in the `src` directory. It is an IPython file. You can basicaly build shell scripts this way. To use the power of IPython commands save the file with the `.ipy` extension and call it with IPython. Even the magics work. To build the document use `ipython builddocs.ipy` You will have to change the paths to the software however.
 
 
 Some interesting links
