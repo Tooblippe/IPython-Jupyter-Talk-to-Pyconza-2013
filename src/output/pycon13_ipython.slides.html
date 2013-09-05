@@ -1732,24 +1732,31 @@ text-align: inherit;
 <body>
 <div class="reveal">
 <div class="slides">
-
+<section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="probabilistic-programming">Probabilistic Programming</h1>
 <h1 id="and-bayesian-methods-for-hackers">and Bayesian Methods for Hackers</h1>
 <h5 id="version-0.1">Version 0.1</h5>
 <p>Welcome to <em>Bayesian Methods for Hackers</em>. The full Github repository is available at <a href="https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers">github/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers</a>. The other chapters can be found on the projects <a href="camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/">homepage</a>. We hope you enjoy the book, and we encourage any contributions!</p>
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="chapter-1">Chapter 1</h1>
 <hr />
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="the-philosophy-of-bayesian-inference">The Philosophy of Bayesian Inference</h2>
 <blockquote>
 <p>You are a skilled programmer, but bugs still slip into your code. After a particularly difficult implementation of an algorithm, you decide to test your code on a trivial example. It passes. You test the code on a harder problem. It passes once again. And it passes the next, <em>even more difficult</em>, test too! You are starting to believe that there may be no bugs in this code...</p>
 </blockquote>
 <p>If you think this way, then congratulations, you already are thinking Bayesian! Bayesian inference is simply updating your beliefs after considering new evidence. A Bayesian can rarely be certain about a result, but he or she can be very confident. Just like in the example above, we can never be 100% sure that our code is bug-free unless we test it on every possible problem; something rarely possible in practice. Instead, we can test it on a large number of problems, and if it succeeds we can feel more <em>confident</em> about our code, but still not certain. Bayesian inference works identically: we update our beliefs about an outcome; rarely can we be absolutely sure unless we rule out all other alternatives.</p>
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>### The Bayesian state of mind</p>
 <p>Bayesian inference differs from more traditional statistical inference by preserving <em>uncertainty</em>. At first, this sounds like a bad statistical technique. Isn't statistics all about deriving <em>certainty</em> from randomness? To reconcile this, we need to start thinking like Bayesians.</p>
@@ -1770,7 +1777,9 @@ text-align: inherit;
 <p>3. <span class="math">\(P(A):\;\;\)</span> The patient could have any number of diseases. <span class="math">\(P(A | X):\;\;\)</span> Performing a blood test generated evidence <span class="math">\(X\)</span>, ruling out some of the possible diseases from consideration.</p>
 <p>It's clear that in each example we did not completely discard the prior belief after seeing new evidence <span class="math">\(X\)</span>, but we <em>re-weighted the prior</em> to incorporate the new evidence (i.e. we put more weight, or confidence, on some beliefs versus others).</p>
 <p>By introducing prior uncertainty about events, we are already admitting that any guess we make is potentially very wrong. After observing data, evidence, or other information, we update our beliefs, and our guess becomes <em>less wrong</em>. This is the alternative side of the prediction coin, where typically we try to be <em>more right</em>.</p>
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>### Bayesian Inference in Practice</p>
 <p>If frequentist and Bayesian inference were programming functions, with inputs being statistical problems, then the two would be different in what they return to the user. The frequentist inference function would return a number, representing an estimate (typically a summary statistic like the sample average etc.), whereas the Bayesian function would return <em>probabilities</em>.</p>
@@ -1792,20 +1801,26 @@ text-align: inherit;
 <h4 id="a-note-on-big-data">A note on <em>Big Data</em></h4>
 <p>Paradoxically, big data's predictive analytic problems are actually solved by relatively simple algorithms [2][4]. Thus we can argue that big data's prediction difficulty does not lie in the algorithm used, but instead on the computational difficulties of storage and execution on big data. (One should also consider Gelman's quote from above and ask &quot;Do I really have big data?&quot; )</p>
 <p>The much more difficult analytic problems involve <em>medium data</em> and, especially troublesome, <em>really small data</em>. Using a similar argument as Gelman's above, if big data problems are <em>big enough</em> to be readily solved, then we should be more interested in the <em>not-quite-big enough</em> datasets.</p>
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="our-bayesian-framework">Our Bayesian framework</h3>
 <p>We are interested in beliefs, which can be interpreted as probabilities by thinking Bayesian. We have a <em>prior</em> belief in event <span class="math">\(A\)</span>, beliefs formed by previous information, e.g., our prior belief about bugs being in our code before performing tests.</p>
 <p>Secondly, we observe our evidence. To continue our buggy-code example: if our code passes <span class="math">\(X\)</span> tests, we want to update our belief to incorporate this. We call this new belief the <em>posterior</em> probability. Updating our belief is done via the following equation, known as Bayes' Theorem, after its discoverer Thomas Bayes:</p>
 
 <p>The above formula is not unique to Bayesian inference: it is a mathematical fact with uses outside Bayesian inference. Bayesian inference merely uses it to connect prior probabilities <span class="math">\(P(A)\)</span> with an updated posterior probabilities <span class="math">\(P(A | X )\)</span>.</p>
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h5 id="example-mandatory-coin-flip-example">Example: Mandatory coin-flip example</h5>
 <p>Every statistics text must contain a coin-flipping example, I'll use it here to get it out of the way. Suppose, naively, that you are unsure about the probability of heads in a coin flip (spoiler alert: it's 50%). You believe there is some true underlying ratio, call it <span class="math">\(p\)</span>, but have no prior opinion on what <span class="math">\(p\)</span> might be.</p>
 <p>We begin to flip a coin, and record the observations: either <span class="math">\(H\)</span> or <span class="math">\(T\)</span>. This is our observed data. An interesting question to ask is how our inference changes as we observe more and more data? More specifically, what do our posterior probabilities look like when we have little data, versus when we have lots of data.</p>
 <p>Below we plot a sequence of updating posterior probabilities as we observe increasing amounts of data (coin flips).</p>
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
@@ -3310,27 +3325,37 @@ SDY2IIiIiIiISDY2IIiIiIiISDY2IIiIiIiISLb/BaiIoyK+Z5z6AAAAAElFTkSuQmCC
 </div>
 </div>
 
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The posterior probabilities are represented by the curves, and our uncertainty is proportional to the width of the curve. As the plot above shows, as we start to observe data our posterior probabilities start to shift and move around. Eventually, as we observe more and more data (coin-flips), our probabilities will tighten closer and closer around the true value of <span class="math">\(p=0.5\)</span> (marked by a dashed line).</p>
 <p>Notice that the plots are not always <em>peaked</em> at 0.5. There is no reason it should be: recall we assumed we did not have a prior opinion of what <span class="math">\(p\)</span> is. In fact, if we observe quite extreme data, say 8 flips and only 1 observed heads, our distribution would look very biased <em>away</em> from lumping around 0.5 (with no prior opinion, how confident would you feel betting on a fair coin after observing 8 tails and 1 head). As more data accumulates, we would see more and more probability being assigned at <span class="math">\(p=0.5\)</span>, though never all of it.</p>
 <p>The next example is a simple demonstration of the mathematics of Bayesian inference.</p>
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h5 id="example-bug-or-just-sweet-unintended-feature">Example: Bug, or just sweet, unintended feature?</h5>
 <p>Let <span class="math">\(A\)</span> denote the event that our code has <strong>no bugs</strong> in it. Let <span class="math">\(X\)</span> denote the event that the code passes all debugging tests. For now, we will leave the prior probability of no bugs as a variable, i.e. <span class="math">\(P(A) = p\)</span>.</p>
 <p>We are interested in <span class="math">\(P(A|X)\)</span>, i.e. the probability of no bugs, given our debugging tests <span class="math">\(X\)</span>. To use the formula above, we need to compute some quantities.</p>
 <p>What is <span class="math">\(P(X | A)\)</span>, i.e., the probability that the code passes <span class="math">\(X\)</span> tests <em>given</em> there are no bugs? Well, it is equal to 1, for a code with no bugs will pass all tests.</p>
 <p><span class="math">\(P(X)\)</span> is a little bit trickier: The event <span class="math">\(X\)</span> can be divided into two possibilities, event <span class="math">\(X\)</span> occurring even though our code <em>indeed has</em> bugs (denoted <span class="math">\(\sim A\;\)</span>, spoken <em>not <span class="math">\(A\)</span></em>), or event <span class="math">\(X\)</span> without bugs (<span class="math">\(A\)</span>). <span class="math">\(P(X)\)</span> can be represented as:</p>
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We have already computed <span class="math">\(P(X|A)\)</span> above. On the other hand, <span class="math">\(P(X | \sim A)\)</span> is subjective: our code can pass tests but still have a bug in it, though the probability there is a bug present is reduced. Note this is dependent on the number of tests performed, the degree of complication in the tests, etc. Let's be conservative and assign <span class="math">\(P(X|\sim A) = 0.5\)</span>. Then</p>
 
 <p>This is the posterior probability. What does it look like as a function of our prior, <span class="math">\(p \in [0,1]\)</span>?</p>
-</div>
+</div></section>
+    </section><section>
+    <section>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
@@ -7096,12 +7121,12 @@ In&nbsp;[]:
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[1]:
+In&nbsp;[8]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">HTML</span>
 <span class="k">def</span> <span class="nf">css_styling</span><span class="p">():</span>
-    <span class="n">styles</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;../styles/custom.css&quot;</span><span class="p">,</span> <span class="s">&quot;r&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="n">styles</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;static/custom.css&quot;</span><span class="p">,</span> <span class="s">&quot;r&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
     <span class="k">return</span> <span class="n">HTML</span><span class="p">(</span><span class="n">styles</span><span class="p">)</span>
 <span class="n">css_styling</span><span class="p">()</span>
 </pre></div>
@@ -7114,18 +7139,19 @@ In&nbsp;[1]:
 
 
 <div class="hbox output_area"><div class="prompt output_prompt">
-    Out[1]:</div>
+    Out[8]:</div>
 <div class="box-flex1 output_subarea output_pyout">
 
 <div class="output_html rendered_html">
+
 <style>
     @font-face {
         font-family: "Computer Modern";
         src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
     }
     div.cell{
-        width:800px;
-        margin-left:16% !important;
+        width:805px;
+        margin-left:auto !important;
         margin-right:auto;
     }
     h1 {
@@ -7163,7 +7189,21 @@ In&nbsp;[1]:
         color: rgb( 240, 20, 20 )
         }  
 </style>
-
+<script>
+    MathJax.Hub.Config({
+                        TeX: {
+                           extensions: ["AMSmath.js"]
+                           },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 4}}
+                }
+        });
+</script>
 </div>
 
 </div>
@@ -7185,7 +7225,8 @@ In&nbsp;[]:
 </div>
 </div>
 
-</div>
+</div></section>
+    </section>
 </div>
 </div>
 

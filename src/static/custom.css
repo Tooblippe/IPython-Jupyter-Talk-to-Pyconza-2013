@@ -5,8 +5,8 @@
         src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
     }
     div.cell{
-        width:900px;
-        margin-left:10% !important;
+        width:805px;
+        margin-left:auto !important;
         margin-right:auto;
     }
     h1 {
