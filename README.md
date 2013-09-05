@@ -1,7 +1,13 @@
-The IPython notebook and the Python science stack
+IPython Notebooks and the Python Scienctific Stack
 ---
 
 [IPython](http://ipython.org/) in action creating reproducible and publishable interactive work.
+
+##### Table of Contents 
+
+[What is this](#What is this)
+[Description](#Description)
+
 
 What is this
 ------
