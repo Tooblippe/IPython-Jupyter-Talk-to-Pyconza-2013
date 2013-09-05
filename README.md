@@ -75,7 +75,19 @@ pandoc 	 | The document converter used by IPython
 MikeTex  | If you want to do a TEX to PDF transform. I had so many issues with the TEX to PDF conversion by NBConvert, so settled for wkhtmltopdf(below) to convert HTML to PDF rather. (Convert notebook to HTML with NBconvert and then from HTML to PDF with wkhtmltopdf
 wkhtmltopdf  | Convert HTML to PDF
 pdftk   |  Can be used to combine PDF's. In this case add a frontpage to the generated IPython notebook PDF.
-
+anaconda  | install anaconda from Continuum Analystics. Almost all the Python packages are included and it has a virtual environment manager via it's console application `conda'
+ 
+How to run the Notebook
+--------
+Navigate to the `src` directory and call:
+ 
+      ipython notebook
+ 
+If everything works your browser should open and you can select the `notebook` and start playing.
+ 
+Build Script
+------------
+There is a build script in the `src` directory. It is an IPython file. You can basicaly build shell scripts this way. To use the power of IPython commands save the file with the `.ipy' extension and call it with IPython. Even the magics work. To build the document use `ipython builddocs.ipy` You will have to change the paths to the software however.
 
 
 Some interesting links
