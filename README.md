@@ -97,7 +97,7 @@ There is a build script in the `src` directory. It is an IPython file. You can b
 
 Cross Platform Rendering
 --------
-I have tested the HTML outputs on my Galaxy S3 and S4, IPAD and Nexus7. They render very well. Even the downloaded PDF was easily readable on the NEXUS 7. In conclusion the produces work is really very well packaged and easily consumed on most platforms. This is not bad, and all done with open source.
+I have tested the HTML outputs on my Galaxy S3 and S4, IPAD and Nexus7. They render very well. Even the downloaded PDF was easily readable on the NEXUS 7 in landscape mode. In conclusion the produces work is really very well packaged and easily consumed on most platforms. This is not bad, and all done with open source.
 
 Some interesting links
 -----------------------
