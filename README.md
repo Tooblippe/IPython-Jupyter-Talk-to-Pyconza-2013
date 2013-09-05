@@ -6,7 +6,7 @@ IPython Notebooks and the Python Scienctific Stack
 What is this?
 ------
 
-This repo contains the full [talk](http://za.pycon.org/talks/10/) at [PyConZA2013](http://za.pycon.org/)
+This repo contains the full [talk](http://za.pycon.org/talks/10/) at [PyConZA2013](http://za.pycon.org/). It contains all the files needed to build a final publishable PDF document and even adds a customer front page.
 
 [The Complete Talk GitHub Website can be accessed here][6]
 
