@@ -1732,7 +1732,229 @@ text-align: inherit;
 <body>
 <div class="reveal">
 <div class="slides">
-<section>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="ipython-notebooks-and-the-python-scientific-stack">IPython Notebooks and the Python Scientific Stack</h2>
+<p><a href="http://ipython.org/">IPython</a> in action creating reproducible and publishable interactive work.</p>
+<h2 id="what-is-this">What is this?</h2>
+<p>This repo contains the full <a href="http://za.pycon.org/talks/10/">talk</a> I intend to deliver (have delivered) at <a href="http://za.pycon.org/">PyConZA2013</a>. It contains all the files needed to build a final publishable PDF document and even adds a customer front page.</p>
+<p><a href="http://tooblippe.github.io/zapycon2013_ipython_science">The Complete Talk GitHub Website can be accessed here</a></p>
+<h2 id="background">Background</h2>
+<p>IPython had become a popular choice for doing interactive scientific work. It extends the standard Python interpreter and adds many useful new futures. There is really no need to use the standard Python interpreter anymore. In addition to this IPython offers a web based Notebook that makes interactive work much easier, and have been used to write repeatable scientific papers and more recently a book has been written using this platform, the online Notebook Viewer and GitHub. The development of this material and tool chain to compile the notebook to a publishable PDF, has inspired me to maybe even try and turn this into a complete (free) book. Let’s see what happens.</p>
+<p>Combining the most common scientific packages with IPython makes it a formidable tool and serious competition to R. ( <em>R is still awesome!</em> )</p>
+<p>As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more but let me not get ahead of myself....</p>
+<p>The science stack consists of (but not limited to):</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">package</th>
+<th align="left">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://pandas.pydata.org/">pandas</a></td>
+<td align="left"><code>dataframe</code> implementation (based on numpy)</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://www.scipy.org/">scipy</a></td>
+<td align="left">efficient numerical routines</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://sympy.org/en/index.html">sympy</a></td>
+<td align="left"><code>symbolic mathematics</code></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://matplotlib.org/">matplotlib</a></td>
+<td align="left">python standard <code>plotting</code> package</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://scikit-learn.org/">sci-kit learn</a></td>
+<td align="left">machine learning and <code>well documented!</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="talk-contents">Talk contents</h2>
+<p>The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to various formats. Some of the topics covered in the talk are listed below:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">item</th>
+<th align="left">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">ipython</td>
+<td align="left">quick intro to ipython and the notebook</td>
+</tr>
+<tr class="even">
+<td align="left">setup</td>
+<td align="left">set up your environment / get the talk files</td>
+</tr>
+<tr class="odd">
+<td align="left">notebook basics</td>
+<td align="left">navigate the notebook</td>
+</tr>
+<tr class="even">
+<td align="left">notebook magic’s</td>
+<td align="left">special notebook commands that can be very useful</td>
+</tr>
+<tr class="odd">
+<td align="left">getting input</td>
+<td align="left">as from IPython 1.00 getting input from sdtin is possible</td>
+</tr>
+<tr class="even">
+<td align="left">local files</td>
+<td align="left">how to link to local files in the notebook directory</td>
+</tr>
+<tr class="odd">
+<td align="left">plotting</td>
+<td align="left">how to create beautiful inline plots</td>
+</tr>
+<tr class="even">
+<td align="left">symbolic math</td>
+<td align="left">quick demo of sympy model</td>
+</tr>
+<tr class="odd">
+<td align="left">pandas</td>
+<td align="left">quick intro to pandas dataframe</td>
+</tr>
+<tr class="even">
+<td align="left">typsetting</td>
+<td align="left">include markdown, Latex via MathJax</td>
+</tr>
+<tr class="odd">
+<td align="left">loading code</td>
+<td align="left">how to load a remote .py code file</td>
+</tr>
+<tr class="even">
+<td align="left">gist</td>
+<td align="left">paste some of your work to gist for sharing</td>
+</tr>
+<tr class="odd">
+<td align="left">js</td>
+<td align="left">some javascript examples</td>
+</tr>
+<tr class="even">
+<td align="left">customising</td>
+<td align="left">loading a customer css and custom matplotlib config file</td>
+</tr>
+<tr class="odd">
+<td align="left">git cell</td>
+<td align="left">add code to a special cell that would commit to git</td>
+</tr>
+<tr class="even">
+<td align="left">output formats</td>
+<td align="left">how to publish your work to html, pdf or jeveal.js presentation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="get-the-talk-files-here">Get the talk files here</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">format</th>
+<th align="left">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.ipynb">IPython notebook</a></td>
+<td align="left">.ipynb file to run in browser</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.html">IPython html notebook</a></td>
+<td align="left">converted to HTML and served online</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython_pdf.pdf?raw=true">IPython pdf notebook</a></td>
+<td align="left">converted to PDF for download (to be added, needs pandoc)</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython_complete.pdf?raw=true">IPython pdf book</a></td>
+<td align="left">converted to pdf and a front-page stitched to it)</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.slides.html#/">Ipython reveal.js presentation</a></td>
+<td align="left">converted to a reveal.js presentation and served online</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://nbviewer.ipython.org/urls/raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/pycon13_ipython.ipynb">Online IPython NBveiwer</a></td>
+<td align="left">view on the ipython notebook viewer</td>
+</tr>
+</tbody>
+</table>
+<h2 id="dependencies">Dependencies</h2>
+<p>I was given the challenge to develop all of this on a Windows machine as some of my sponsors want to demonstrate that this stuff can not only be done on GNU/Linux/OSX. So all the tool chains are Windows based. If you know Linux, then you are the type of person that would easily port this. That being said the Windows GitHub client is refreshing.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">package</th>
+<th align="left">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">IPython</td>
+<td align="left">To use NBConvert you need V1.00. If you only want to use the interactive notebook then v0.13 will be ok.</td>
+</tr>
+<tr class="even">
+<td align="left">pandoc</td>
+<td align="left">The document converter used by IPythonr</td>
+</tr>
+<tr class="odd">
+<td align="left">MikeTex</td>
+<td align="left">If you want to do a TEX to PDF transform. I had so many issues with the TEX to PDF conversion by NBConvert, so settled for wkhtmltopdf(below) to convert HTML to PDF rather. (Convert notebook to HTML with NBconvert and then from HTML to PDF with wkhtmltopdf</td>
+</tr>
+<tr class="even">
+<td align="left">wkhtmltopdf</td>
+<td align="left">Convert HTML to PDF</td>
+</tr>
+<tr class="odd">
+<td align="left">pdftk</td>
+<td align="left">Can be used to combine PDF's. In this case add a frontpage to the generated IPython notebook PDF.</td>
+</tr>
+<tr class="even">
+<td align="left">ImageMagick</td>
+<td align="left">for compressing the PDF. Still experimenting with this.</td>
+</tr>
+<tr class="odd">
+<td align="left">GhostScript</td>
+<td align="left">needed by ImageMagick</td>
+</tr>
+<tr class="even">
+<td align="left">anaconda</td>
+<td align="left">install anaconda from Continuum Analytics. Almost all the Python packages are included and it has a virtual environment manager via it's console application `conda'</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-to-run-the-interactive-notebook">How to run the Interactive Notebook</h2>
+<p>Navigate to the <code>src</code> directory and run from the command line:</p>
+<p><code>python       ipython notebook</code></p>
+<p>If everything works your browser should open and you can select the <code>notebook</code> and start experimenting!</p>
+<h2 id="pdf-html-slideshow-build-script">PDF, HTML, Slideshow Build Script</h2>
+<p>There is a build script in the <code>src</code> directory. It is an IPython file. You can basically build shell scripts this way. To use the power of IPython commands save the file with the <code>.ipy</code> extension and call it with IPython. Even the magic’s work. To build the document use <code>ipython builddocs.ipy</code> You will have to change the paths to the software however.</p>
+<h2 id="cross-platform-output-rendering">Cross Platform Output Rendering</h2>
+<p>I have tested the HTML outputs on my Galaxy S3 and S4, IPAD and Nexus7. They render very well. Even the downloaded PDF was easily readable on the NEXUS 7 in landscape mode. In conclusion the produces work is really very well packaged and easily consumed on most platforms. This is not bad, and all done with open source software.</p>
+<h2 id="some-interesting-links">Some interesting links</h2>
+<ul>
+<li><a href="http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/">A book written with IPython Notebook</a></li>
+<li><a href="http://nbviewer.ipython.org/">Notebook Viewer</a></li>
+<li><a href="http://www.continuum.io/downloads">Anaconda - Installing almost everything you need</a></li>
+</ul>
+<h2 id="about-the-presenter">About the presenter</h2>
+<ul>
+<li>I am an Electrical Engineer and is currently working for a <a href="http://www.eon.co.za/index.php/our-services-main/our-services/business-analytics">consulting firm</a> where I manage the Business Analytics and Quantitative Decision Support Services division.</li>
+<li>I use python in my day to day work as a practical alternative to the limitations of EXCEL in using large data sets.</li>
+<li><a href="http://www.linkedin.com/in/tobienortje">LinkedIn</a></li>
+<li>I am also a co-founder at <a href="http://www.house4hack.co.za/">House4Hack</a></li>
+</ul>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>-----------------------------insert something cool here</p>
+</div></section>
+    </section><section>
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="ipython-notebook-and-scientific-stack">IPython Notebook and Scientific Stack</h1>
@@ -2296,8 +2518,7 @@ In&nbsp;[6]:
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>## Some Interesting Notebooks</p>
-</div></section>
-    </section>
+</div>
 </div>
 </div>
 
