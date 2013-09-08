@@ -53,7 +53,7 @@ git cell    | add code to a special cell that would commit to git
 output formats | how to publish your work to html, pdf or jeveal.js presentation
 
 
-Get the talk files here
+Get the processed presentation files here:
 ------
 format  | description
 ------- | ------------
