@@ -19,6 +19,8 @@ In addition to this IPython offers a web based Notebook that makes interactive w
 
 Combining the most common scientific packages with IPython makes it a formidable tool and serious competition to R. ( _R is still awesome!_ )
 
+![http://ipython.org/_static/ipy_0.13.png](http://ipython.org/_static/ipy_0.13.png)
+
 As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more but let me not get ahead of myself....
 
 The science stack consists of (but not limited to):
