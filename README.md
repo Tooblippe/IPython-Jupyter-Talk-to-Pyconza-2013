@@ -1,12 +1,14 @@
 IPython Notebooks and the Python Scientific Stack
 ---
 
+![http://ipython.org/_static/IPy_header.png](http://ipython.org/_static/IPy_header.png)
+
 [IPython](http://ipython.org/) in action creating reproducible and publishable interactive work.
 
 What is this?
 ------
 
-This repo contains the full [talk](http://za.pycon.org/talks/10/) I intend to deliver (have delivered) at [PyConZA2013](http://za.pycon.org/). It contains all the files needed to build a final publishable PDF document and even adds a customer front page.
+This repo contains the full [talk](http://za.pycon.org/talks/10/) I intend to deliver (have delivered) at [PyConZA2013](http://za.pycon.org/). It contains all the files needed to build a final publishable PDF document from an interactive notebook and even adds a custom front page.
 
 [The Complete Talk GitHub Website can be accessed here][6]
 
@@ -16,6 +18,8 @@ IPython had become a popular choice for doing interactive scientific work. It ex
 In addition to this IPython offers a web based Notebook that makes interactive work much easier, and have been used to write repeatable scientific papers and more recently a book has been written using this platform, the online Notebook Viewer and GitHub. The development of this material and tool chain to compile the notebook to a publishable PDF, has inspired me to maybe even try and turn this into a complete (free) book. Let’s see what happens.
 
 Combining the most common scientific packages with IPython makes it a formidable tool and serious competition to R. ( _R is still awesome!_ )
+
+![http://ipython.org/_static/ipy_0.13.png](http://ipython.org/_static/ipy_0.13.png)
 
 As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more but let me not get ahead of myself....
 
@@ -31,7 +35,7 @@ package  |  description
 
 Talk contents
 --------
-The talk will aim to introduce these tools and give some practical examples. Once completed it will be shown how easy it is to publish your work to various formats. Some of the topics covered in the talk are listed below:
+The talk will aim to introduce these tools and explore some practical interactive examples. Once completed it will be shown how easy it is to publish your work to various formats. Some of the topics covered in the talk are listed below:
 
 item   | description
 ---- |  -------
@@ -53,7 +57,7 @@ git cell    | add code to a special cell that would commit to git
 output formats | how to publish your work to html, pdf or jeveal.js presentation
 
 
-Get the talk files here
+Get the processed presentation files here:
 ------
 format  | description
 ------- | ------------
