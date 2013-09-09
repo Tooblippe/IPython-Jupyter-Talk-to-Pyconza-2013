@@ -1,4 +1,4 @@
-IPython Notebooks and the Python Scientific Stack
+§IPython Notebooks and the Python Scientific Stack
 ---
 
 ![http://ipython.org/_static/IPy_header.png](http://ipython.org/_static/IPy_header.png)
