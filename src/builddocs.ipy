@@ -1,48 +1,67 @@
-
+import platform
 
 pdf = True   # pdf generation takes long
 debug = False
+git = True
 
 # do the conversions
 
-!cd C:\Users\tobie.nortje\Documents\GitHub\zapycon2013_ipython_science\src\
 
-print "******************** Converting to HTML"
-!c:\Anaconda\scripts\ipython.exe nbconvert --to html --template full  pycon13_ipython.ipynb
+if platform.system() == 'Windows':
+    print 'running on windows'
+    !cd C:\Users\tobie.nortje\Documents\GitHub\zapycon2013_ipython_science\src\
+    
+    print "******************** Converting to HTML"
+    !c:\Anaconda\scripts\ipython.exe nbconvert --to html --template full  pycon13_ipython.ipynb
+    
+    print "******************** Converting to slides"
+    !c:\Anaconda\scripts\ipython.exe nbconvert --to slides pycon13_ipython.ipynb
+    
+    #print "******************** Converting to latex"
+    #!c:\Anaconda\scripts\ipython.exe nbconvert --to latex --template book pycon13_ipython.ipynb --post PDF
+    
+    #print "******************** Converting to PDF1"
+    #stich the pdf with the frontpage
+    !copy static\frontpage.pdf
+    
+    print "******************** Converting to PDF2"
+    #need some work here....just update to pdf..need to add the frontpage
+    !wkhtmltopdf pycon13_ipython.html pycon13_ipython_pdf.pdf
+    !pdftk frontpage.pdf pycon13_ipython_pdf.pdf output pycon13_ipython_complete.pdf
+    !del frontpage.pdf     #this is dangerous...need to remove 
+    
+    #move the generated pdfs to the frontpage
+    !move *.pdf output
+    
+    #move the html files 
+    !move *.html output
+    
+    #delete conversion files
+    #if not debug:
+    #    !del *.log
+    #    !del *.aux
+    #    !del *.tex
+    #    !del *.out
+    #    !del *.idx
+    #    !del *.toc
+    
+    #removes unwanted directory
+    #!rmdir /s/q pycon13_ipython_files
+    
+    #compress pdf here, current size to big!
 
-print "******************** Converting to slides"
-!c:\Anaconda\scripts\ipython.exe nbconvert --to slides pycon13_ipython.ipynb
+if platform.system() == 'Darwin': #mac
+    print "srunning on mac"
+    
+    print "******************** Converting to HTML"
+    !ipython nbconvert --to html --template full  pycon13_ipython.ipynb
+    
+    print "******************** Converting to slides"
+    !ipython nbconvert --to slides pycon13_ipython.ipynb
 
-#print "******************** Converting to latex"
-#!c:\Anaconda\scripts\ipython.exe nbconvert --to latex --template book pycon13_ipython.ipynb --post PDF
 
-#print "******************** Converting to PDF1"
-#stich the pdf with the frontpage
-!copy static\frontpage.pdf
-
-print "******************** Converting to PDF2"
-#need some work here....just update to pdf..need to add the frontpage
-!wkhtmltopdf pycon13_ipython.html pycon13_ipython_pdf.pdf
-!pdftk frontpage.pdf pycon13_ipython_pdf.pdf output pycon13_ipython_complete.pdf
-!del frontpage.pdf     #this is dangerous...need to remove 
-
-#move the generated pdfs to the frontpage
-!move *.pdf output
-
-#move the html files 
-!move *.html output
-
-#delete conversion files
-#if not debug:
-#    !del *.log
-#    !del *.aux
-#    !del *.tex
-#    !del *.out
-#    !del *.idx
-#    !del *.toc
-
-#removes unwanted directory
-#!rmdir /s/q pycon13_ipython_files
-
-#compress pdf here, current size to big!
-
+if git:
+    !git add .
+    !git commit --message="Building"
+    !git push
+    
