@@ -1963,7 +1963,6 @@ text-align: inherit;
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="ipython-notebook---a-cookbook">IPython Notebook - A cookbook?</h1>
-<p>bla bla bla bkla</p>
 </div></section>
     </section><section>
     <section>
@@ -2331,16 +2330,17 @@ In&nbsp;[3]:
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="adding-youtube-videos">Adding Youtube Videos</h2>
+<p>I am making the video small as it does not embed into the final output pdf.</p>
 </div><div class="fragment">
     
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[7]:
+In&nbsp;[1]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">YouTubeVideo</span>
-<span class="n">YouTubeVideo</span><span class="p">(</span><span class="s">&#39;iwVvqwLDsJo&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">400</span><span class="p">)</span>
+<span class="n">YouTubeVideo</span><span class="p">(</span><span class="s">&#39;iwVvqwLDsJo&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -2351,14 +2351,14 @@ In&nbsp;[7]:
 
 
 <div class="hbox output_area"><div class="prompt output_prompt">
-    Out[7]:</div>
+    Out[1]:</div>
 <div class="box-flex1 output_subarea output_pyout">
 
 <div class="output_html rendered_html">
 
         <iframe
-            width="600"
-            height=400"
+            width="200"
+            height=200"
             src="http://www.youtube.com/embed/iwVvqwLDsJo"
             frameborder="0"
             allowfullscreen
@@ -2674,6 +2674,11 @@ RgMAAAAAAOgwNBoAAAAAAECHodEAAAAAAAA6zP8Hu3zrRW+Ve40AAAAASUVORK5CYII=
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="typesetting">Typesetting</h2>
+<h3 id="latex">Latex</h3>
+<p>Latex is rendered using the mathjax javascript library</p>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><span class="math">\[c = \sqrt{a^2 + b^2}\]</span></p>
 </div></section>
     </section><section>
     <section>
@@ -3501,7 +3506,7 @@ output/<br>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[7]:
+In&nbsp;[1]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="o">!</span>ipython builddocs.ipy
@@ -3522,7 +3527,6 @@ srunning on mac
 [NbConvertApp] Using existing profile dir: u&apos;/Users/tobie/.ipython/profile_default&apos;
 [NbConvertApp] Converting notebook pycon13_ipython.ipynb to html
 [NbConvertApp] Support files will be in pycon13_ipython_files/
-[NbConvertApp] Loaded template html_full.tpl
 
 </pre>
 </div>
@@ -3553,14 +3557,27 @@ srunning on mac
     <section>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="embedding-the-final-presentation-into-the-notebook">Embedding the final presentation into the notebook!</h2>
-<p>Why not? This might create an infinite loop! Used the Iframe tag</p>
+<p>The build script generates a slideshow version of this notebook and saves it in the output directory. Using an inline html iframe it is embedded below.</p>
 </div><div class="fragment">
     
 <div class="text_cell_render border-box-sizing rendered_html">
-<iframe src="http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.slides.html#/"></iframe>
+<iframe width=800 height= 400 src="http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.slides.html#/"></iframe>
 
 </div>
     </div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre>
+</pre></div>
+
+</div>
+</div>
+
+</div>
 </div>
 </div>
 

@@ -61,7 +61,9 @@ if platform.system() == 'Darwin': #mac
     !ipython nbconvert --to slides pycon13_ipython.ipynb
 
     #http://plessl.github.io/wkpdf/
+    !wkpdf --source pycon13_ipython.html --output pycon13_ipython_pdf.pdf -l --save-delay=5 -g    
     !mv *.html output/
+    !mv *.pdf output/
     print "mac run completed"
 
     
