@@ -2,7 +2,7 @@ import platform
 
 pdf = True   # pdf generation takes long
 debug = False
-git = True
+git = False
 
 # do the conversions
 
@@ -59,7 +59,11 @@ if platform.system() == 'Darwin': #mac
     print "******************** Converting to slides"
     !ipython nbconvert --to slides pycon13_ipython.ipynb
 
-    #!mv *.html static
+    #http://plessl.github.io/wkpdf/
+    !mv *.html output/
+    print "mac run completed"
+
+    
 
 if git:
     !git add .
