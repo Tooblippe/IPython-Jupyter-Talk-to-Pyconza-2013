@@ -71,17 +71,18 @@ format  | description
 
 Dependencies
 -------------
-I was given the challenge to develop all of this on a Windows machine as some of my sponsors want to demonstrate that this stuff can not only be done on GNU/Linux/OSX. So all the tool chains are Windows based. If you know Linux, then you are the type of person that would easily port this. That being said the Windows GitHub client is refreshing.
+I was given the challenge to develop all of this on a Windows machine as some of my sponsors want to demonstrate that this stuff can not only be done on GNU/Linux/OSX. So all the tool chains are Windows based. If you know Linux, then you are the type of person that would easily port this. That being said the Windows GitHub client is refreshing. I have also added a MacBook Air to my arsenal and have been porting the toolchain to Mac aswell and it seems to be working fine. 
 
 package  |  description
 -------- | ------------
 IPython  | To use NBConvert you need V1.00. If you only want to use the interactive notebook then v0.13 will be ok.
 pandoc 	 | The document converter used by IPythonr
 MikeTex  | If you want to do a TEX to PDF transform. I had so many issues with the TEX to PDF conversion by NBConvert, so settled for wkhtmltopdf(below) to convert HTML to PDF rather. (Convert notebook to HTML with NBconvert and then from HTML to PDF with wkhtmltopdf
-wkhtmltopdf  | Convert HTML to PDF
-pdftk   |  Can be used to combine PDF's. In this case add a frontpage to the generated IPython notebook PDF.
-ImageMagick | for compressing the PDF. Still experimenting with this.
-GhostScript | needed by ImageMagick
+wkhtmltopdf  | Convert HTML to PDF (i could only install this on windows)
+wkpdf		| I couldn't get wkhtmltopdf to work  on os x so i installed wkpdf for handling the HTML to PDF conversion on my Mac. It's a Ruby Gem install and painless.
+pdftk   |  Can be used to combine PDF's. In this case add a frontpage to the generated IPython notebook PDF. Only available for Windows.
+*ImageMagick | for compressing the PDF. Still experimenting with this.(have not got this working yet so not needed)
+*GhostScript | needed by ImageMagick(not needed as PDF compression is not functional yet)
 anaconda  | install anaconda from Continuum Analytics. Almost all the Python packages are included and it has a virtual environment manager via it's console application `conda'
 
  
@@ -97,7 +98,7 @@ If everything works your browser should open and you can select the `notebook` a
  
 PDF, HTML, Slideshow Build Script
 ------------
-There is a build script in the `src` directory. It is an IPython file. You can basically build shell scripts this way. To use the power of IPython commands save the file with the `.ipy` extension and call it with IPython. Even the magic’s work. To build the document use `ipython builddocs.ipy` You will have to change the paths to the software however.
+There is a build script in the `src` directory. It is an IPython file. You can basically build shell scripts this way. To use the power of IPython commands save the file with the `.ipy` extension and call it with IPython. Even the magic’s work. To build the document use `ipython builddocs.ipy` You will have to change the paths to the software however. Currently I can use the build script on Windows and on my Mac but it is a bit of a hack.
 
 Cross Platform Output Rendering
 --------
