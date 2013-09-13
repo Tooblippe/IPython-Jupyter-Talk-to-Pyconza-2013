@@ -1735,9 +1735,9 @@ text-align: inherit;
 <div style=display:none>
     
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>IPython Notebooks and the Python Scientific Stack ---</p>
+<h2 id="ipython-notebooks-and-the-python-scientific-stack">IPython Notebooks and the Python Scientific Stack</h2>
 <div class="figure">
-<img src="static/ip.png" alt="ipy" /><p class="caption">ipy</p>
+<img src="https://raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/static/ip.png" alt="ipy" /><p class="caption">ipy</p>
 </div>
 <p><a href="http://ipython.org/">IPython</a> in action creating reproducible and publishable interactive work.</p>
 <h2 id="what-is-this">What is this?</h2>
@@ -1746,9 +1746,6 @@ text-align: inherit;
 <h2 id="background">Background</h2>
 <p>IPython had become a popular choice for doing interactive scientific work. It extends the standard Python interpreter and adds many useful new futures. There is really no need to use the standard Python interpreter anymore. In addition to this IPython offers a web based Notebook that makes interactive work much easier, and have been used to write repeatable scientific papers and more recently a book has been written using this platform, the online Notebook Viewer and GitHub. The development of this material and tool chain to compile the notebook to a publishable PDF, has inspired me to maybe even try and turn this into a complete (free) book. Let’s see what happens.</p>
 <p>Combining the most common scientific packages with IPython makes it a formidable tool and serious competition to R. ( <em>R is still awesome!</em> )</p>
-<div class="figure">
-<img src="static/ip2.png" alt="ipy" /><p class="caption">ipy</p>
-</div>
 <p>As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more but let me not get ahead of myself....</p>
 <p>The science stack consists of (but not limited to):</p>
 <table>
@@ -1911,7 +1908,7 @@ text-align: inherit;
 <td align="left">The document converter used by IPythonr</td>
 </tr>
 <tr class="odd">
-<td align="left">MikeTex</td>
+<td align="left">MikeTex/MacTex</td>
 <td align="left">If you want to do a TEX to PDF transform. I had so many issues with the TEX to PDF conversion by NBConvert, so settled for wkhtmltopdf(below) to convert HTML to PDF rather. (Convert notebook to HTML with NBconvert and then from HTML to PDF with wkhtmltopdf</td>
 </tr>
 <tr class="even">
@@ -1938,7 +1935,7 @@ text-align: inherit;
 </table>
 <h2 id="how-to-run-the-interactive-notebook">How to run the Interactive Notebook</h2>
 <p>Navigate to the <code>src</code> directory and run from the command line:</p>
-<p><code>python       ipython notebook</code></p>
+<p><code>python       ipython notebook --pylab inline</code></p>
 <p>If everything works your browser should open and you can select the <code>notebook</code> and start experimenting!</p>
 <h2 id="pdf-html-slideshow-build-script">PDF, HTML, Slideshow Build Script</h2>
 <p>There is a build script in the <code>src</code> directory. It is an IPython file. You can basically build shell scripts this way. To use the power of IPython commands save the file with the <code>.ipy</code> extension and call it with IPython. Even the magic’s work. To build the document use <code>ipython builddocs.ipy</code> You will have to change the paths to the software however.</p>
@@ -1967,9 +1964,12 @@ text-align: inherit;
 <p>A universal window into Python</p>
 </blockquote>
 <p>The IPython notebook is part of the IPython project. The IPython project is one of the packacges making up the python scientific stack called SciPi. SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering. In particular, these are some of the core packages:</p>
+<div class="figure">
+<img src="https://raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/static/scistack.png" alt="SciPy" /><p class="caption">SciPy</p>
+</div>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="files\static\scistack.png"></p>
+<p><img src=""></p>
 </div></section>
     </section><section>
     <section>
