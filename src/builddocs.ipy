@@ -53,7 +53,13 @@ if platform.system() == 'Darwin': #mac
 
     #http://plessl.github.io/wkpdf/
     !wkpdf --source pycon13_ipython.html --output pycon13_ipython_pdf.pdf -l --save-delay=5 -g    
+    
+    !cp static/frontpage.pdf frontpage.pdf
+
+    !gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=pycon13_ipython_complete.pdf frontpage.pdf pycon13_ipython_pdf.pdf
+    
     !mv *.html output/
+    !rm frontpage.pdf  
     !mv *.pdf output/
     print "mac run completed"
 
