@@ -1,38 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Python Notebooks Talk @ ZaPyCon 2013 : IPython Notebooks and the Python Scienctific Stack" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>IPython Notebooks - Talk @ ZaPyCon 2013 by Tooblippe</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Python Notebooks Talk @ ZaPyCon 2013</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">IPython Notebooks - Talk @ ZaPyCon 2013</h1>
+        <p class="header">IPython Notebooks and the Python Scienctific Stack</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Tooblippe/zapycon2013_ipython_science">View on GitHub</a>
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/Tooblippe/zapycon2013_ipython_science/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/Tooblippe/zapycon2013_ipython_science/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/Tooblippe/zapycon2013_ipython_science">View On GitHub</a></li>
+        </ul>
 
-          <h1 id="project_title">Python Notebooks Talk @ ZaPyCon 2013</h1>
-          <h2 id="project_tagline">IPython Notebooks and the Python Scienctific Stack</h2>
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/Tooblippe">Tooblippe</a></p>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/Tooblippe/zapycon2013_ipython_science/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Tooblippe/zapycon2013_ipython_science/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      </header>
+      <section>
         <h2>
-<a name="ipython-notebooks-and-the-python-scientific-stack" class="anchor" href="#ipython-notebooks-and-the-python-scientific-stack"><span class="octicon octicon-link"></span></a>IPython Notebooks and the Python Scientific Stack</h2>
+<a name="ipython-notebooks-and-the-python-scientific-stack" class="anchor" href="#ipython-notebooks-and-the-python-scientific-stack"><span class="octicon octicon-link"></span></a>§IPython Notebooks and the Python Scientific Stack</h2>
 
 <p><img src="http://ipython.org/_static/IPy_header.png" alt="http://ipython.org/_static/IPy_header.png"></p>
 
@@ -41,7 +40,7 @@
 <h2>
 <a name="what-is-this" class="anchor" href="#what-is-this"><span class="octicon octicon-link"></span></a>What is this?</h2>
 
-<p>This repo contains the full <a href="http://za.pycon.org/talks/10/">talk</a> I intend to deliver (have delivered) at <a href="http://za.pycon.org/">PyConZA2013</a>. It contains all the files needed to build a final publishable PDF document from an interactive notebook and even adds a custom front page.</p>
+<p>This <code>repo</code> contains the full <a href="http://za.pycon.org/talks/10/">talk</a> I intend to deliver (have delivered) at <a href="http://za.pycon.org/">PyConZA2013</a>. It contains all the files needed to build a final publishable PDF document from an interactive notebook and even adds a custom front page.</p>
 
 <p><a href="http://tooblippe.github.io/zapycon2013_ipython_science">The Complete Talk GitHub Website can be accessed here</a></p>
 
@@ -201,7 +200,7 @@ In addition to this IPython offers a web based Notebook that makes interactive w
 </table><h2>
 <a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h2>
 
-<p>I was given the challenge to develop all of this on a Windows machine as some of my sponsors want to demonstrate that this stuff can not only be done on GNU/Linux/OSX. So all the tool chains are Windows based. If you know Linux, then you are the type of person that would easily port this. That being said the Windows GitHub client is refreshing.</p>
+<p>I was given the challenge to develop all of this on a Windows machine as some of my sponsors want to demonstrate that this stuff can not only be done on GNU/Linux/OSX. So all the tool chains are Windows based. If you know Linux, then you are the type of person that would easily port this. That being said the Windows GitHub client is refreshing. I have also added a MacBook Air to my arsenal and have been porting the toolchain to Mac aswell and it seems to be working fine. </p>
 
 <table>
 <thead><tr>
@@ -223,19 +222,23 @@ In addition to this IPython offers a web based Notebook that makes interactive w
 </tr>
 <tr>
 <td>wkhtmltopdf</td>
-<td>Convert HTML to PDF</td>
+<td>Convert HTML to PDF (i could only install this on windows)</td>
+</tr>
+<tr>
+<td>wkpdf</td>
+<td>I couldn't get wkhtmltopdf to work  on os x so i installed wkpdf for handling the HTML to PDF conversion on my Mac. It's a Ruby Gem install and painless.</td>
 </tr>
 <tr>
 <td>pdftk</td>
-<td>Can be used to combine PDF's. In this case add a frontpage to the generated IPython notebook PDF.</td>
+<td>Can be used to combine PDF's. In this case add a frontpage to the generated IPython notebook PDF. Only available for Windows.</td>
 </tr>
 <tr>
-<td>ImageMagick</td>
-<td>for compressing the PDF. Still experimenting with this.</td>
+<td>*ImageMagick</td>
+<td>for compressing the PDF. Still experimenting with this.(have not got this working yet so not needed)</td>
 </tr>
 <tr>
-<td>GhostScript</td>
-<td>needed by ImageMagick</td>
+<td>*GhostScript</td>
+<td>needed by ImageMagick(not needed as PDF compression is not functional yet)</td>
 </tr>
 <tr>
 <td>anaconda</td>
@@ -247,7 +250,7 @@ In addition to this IPython offers a web based Notebook that makes interactive w
 
 <p>Navigate to the <code>src</code> directory and run from the command line:</p>
 
-<div class="highlight"><pre>      <span class="n">ipython</span> <span class="n">notebook</span>
+<div class="highlight highlight-python"><pre>      <span class="n">ipython</span> <span class="n">notebook</span>
 </pre></div>
 
 <p>If everything works your browser should open and you can select the <code>notebook</code> and start experimenting!</p>
@@ -255,7 +258,7 @@ In addition to this IPython offers a web based Notebook that makes interactive w
 <h2>
 <a name="pdf-html-slideshow-build-script" class="anchor" href="#pdf-html-slideshow-build-script"><span class="octicon octicon-link"></span></a>PDF, HTML, Slideshow Build Script</h2>
 
-<p>There is a build script in the <code>src</code> directory. It is an IPython file. You can basically build shell scripts this way. To use the power of IPython commands save the file with the <code>.ipy</code> extension and call it with IPython. Even the magic’s work. To build the document use <code>ipython builddocs.ipy</code> You will have to change the paths to the software however.</p>
+<p>There is a build script in the <code>src</code> directory. It is an IPython file. You can basically build shell scripts this way. To use the power of IPython commands save the file with the <code>.ipy</code> extension and call it with IPython. Even the magic’s work. To build the document use <code>ipython builddocs.ipy</code> You will have to change the paths to the software however. Currently I can use the build script on Windows and on my Mac but it is a bit of a hack.</p>
 
 <h2>
 <a name="cross-platform-output-rendering" class="anchor" href="#cross-platform-output-rendering"><span class="octicon octicon-link"></span></a>Cross Platform Output Rendering</h2>
@@ -280,17 +283,11 @@ In addition to this IPython offers a web based Notebook that makes interactive w
 </li>
 </ul>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Python Notebooks Talk @ ZaPyCon 2013 maintained by <a href="https://github.com/Tooblippe">Tooblippe</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
-
-    
-
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
   </body>
 </html>
