@@ -9465,12 +9465,46 @@ if this is the most recent IPython session you have started.
 </ul>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="file-links-to-exported-content">File links to exported content</h2>
-<p>The links below can be used to verify the output from the convertion process. This saved me a lot of time as I could just click below and have a look at the files without exiting the notebook.</p>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="buildingexporting-from-within-the-notebook">Building(exporting) from within the notebook</h2>
 <p>You can even call the build script from the notebook. The script will convert this page to an html and slide file. It will also compile to PDF and stitch a front page to it. Some of the last text in the building process wont appear as this notebook is being updated as it is being compile. Maybe not the best idea but saved a lot of time...</p>
+</div>
+<div class="cell border-box-sizing code_cell vbox">
+<div class="input hbox">
+<div class="prompt input_prompt">
+In&nbsp;[62]:
+</div>
+<div class="input_area box-flex1">
+<div class="highlight"><pre><span class="o">!</span>ipython builddocs.ipy;
+<span class="k">print</span> <span class="s">&quot;Done&quot;</span>
+</pre></div>
+
+</div>
+</div>
+
+<div class="vbox output_wrapper">
+<div class="output vbox">
+
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_stream output_stdout">
+<pre>
+running on mac
+******************** Converting to HTML
+[NbConvertApp] Using existing profile dir: u&apos;/Users/tobie/.ipython/profile_default&apos;
+[NbConvertApp] Converting notebook pycon13_ipython.ipynb to html
+[NbConvertApp] Support files will be in pycon13_ipython_files/
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="file-links-to-exported-content">File links to exported content</h2>
+<p>The links below can be used to verify the output from the convertion process. This saved me a lot of time as I could just click below and have a look at the files without exiting the notebook.</p>
 </div>
 <div class="cell border-box-sizing code_cell vbox">
 <div class="input hbox">
@@ -9501,40 +9535,6 @@ output/<br>
 &nbsp;&nbsp;<a href='files/output/pycon13_ipython_pdf.pdf' target='_blank'>pycon13_ipython_pdf.pdf</a><br>
 </div>
 
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell vbox">
-<div class="input hbox">
-<div class="prompt input_prompt">
-In&nbsp;[62]:
-</div>
-<div class="input_area box-flex1">
-<div class="highlight"><pre><span class="o">!</span>ipython builddocs.ipy;
-<span class="k">print</span> <span class="s">&quot;Done&quot;</span>
-</pre></div>
-
-</div>
-</div>
-
-<div class="vbox output_wrapper">
-<div class="output vbox">
-
-
-<div class="hbox output_area"><div class="prompt"></div>
-<div class="box-flex1 output_subarea output_stream output_stdout">
-<pre>
-running on mac
-******************** Converting to HTML
-[NbConvertApp] Using existing profile dir: u&apos;/Users/tobie/.ipython/profile_default&apos;
-[NbConvertApp] Converting notebook pycon13_ipython.ipynb to html
-[NbConvertApp] Support files will be in pycon13_ipython_files/
-
-</pre>
 </div>
 </div>
 
