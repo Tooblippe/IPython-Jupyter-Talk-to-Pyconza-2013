@@ -1,6 +1,3 @@
-§IPython Notebooks and the Python Scientific Stack
----
-
 ![http://ipython.org/_static/IPy_header.png](http://ipython.org/_static/IPy_header.png)
 
 [IPython](http://ipython.org/) in action creating reproducible and publishable interactive work.
@@ -8,7 +5,7 @@
 What is this?
 ------
 
-This `repo` contains the full [talk](http://za.pycon.org/talks/10/) I intend to deliver (have delivered) at [PyConZA2013](http://za.pycon.org/). It contains all the files needed to build a final publishable PDF document from an interactive notebook and even adds a custom front page.
+This `repo` contains the complete [talk](http://za.pycon.org/talks/10/) I intend to deliver (have delivered) at [PyConZA2013](http://za.pycon.org/). It contains all the files needed to build a final publishable PDF document from an interactive notebook and even adds a custom front page.
 
 [The Complete Talk GitHub Website can be accessed here][6]
 
@@ -48,7 +45,7 @@ local files | how to link to local files in the notebook directory
 plotting	| how to create beautiful inline plots
 symbolic math | quick demo of sympy model
 pandas  | quick intro to pandas dataframe
-typsetting | include markdown, Latex via MathJax
+typesetting | include markdown, Latex via MathJax
 loading code | how to load a remote .py code file
 gist         | paste some of your work to gist for sharing
 js		| some javascript examples
