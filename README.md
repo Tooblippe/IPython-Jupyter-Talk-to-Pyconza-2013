@@ -88,7 +88,7 @@ How to run the Interactive Notebook
 Navigate to the `src` directory and run from the command line:
 
  ```python
-      ipython notebook
+      ipython notebook --pylab inline
 ```
 
 If everything works your browser should open and you can select the `notebook` and start experimenting!
