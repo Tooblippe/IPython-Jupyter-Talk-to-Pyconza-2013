@@ -49,7 +49,7 @@ typesetting | include markdown, Latex via MathJax
 loading code | how to load a remote .py code file
 gist         | paste some of your work to gist for sharing
 js		| some javascript examples
-customising | loading a customer css and custom matplotlib config file
+customising | loading a custom css and custom matplotlib config file
 git cell    | add code to a special cell that would commit to git
 output formats | how to publish your work to html, pdf or jeveal.js presentation
 
