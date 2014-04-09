@@ -129,3 +129,7 @@ About the presenter
   [10]: http://www.eon.co.za/index.php/our-services-main/our-services/business-analytics
   [11]: http://www.linkedin.com/in/tobienortje
   [12]: http://www.house4hack.co.za/
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Tooblippe/zapycon2013_ipython_science/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
