@@ -5,4 +5,4 @@
 ¿Qué es esto?
 ------
 
-Este `repositorio` contiene el material que se esta para el curso que voy a dar como parte del diplomado/curso **nombre** de la Maestría en Redes y Sistemas (RySi) que imparte cada año el Centro de Estudios LANIA (CEL). De este `master` se desprenden ls `branches` correspondientes a los distintos cursos que se proyectan ofrecer en el futuro.
+Este `repositorio` contiene el material que se esta para el curso que voy a dar como parte del diplomado/curso **Temas Avanzados en Ciencias de la Computación** de la Maestría en Redes y Sistemas (RySi) que imparte el Centro de Estudios LANIA (CEL).
