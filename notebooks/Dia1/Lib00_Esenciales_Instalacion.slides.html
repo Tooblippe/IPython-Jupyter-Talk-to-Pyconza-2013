@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>lania2014_ipython slides</title>
+<title>Lib00_Esenciales_Instalacion slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -1717,12 +1717,11 @@ div.output_prompt {
 <body>
 <div class="reveal">
 <div class="slides">
-<div style=display:none>
-    
+
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[1]:
+In&nbsp;[9]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1829,220 +1828,13 @@ In&nbsp;[1]:
 </div>
 
 </div>
-    </div></section>
-    </section><section>
-    <section>
-    
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="http://ipython.org/_static/IPy_header.png" alt="http://ipython.org/_static/IPy_header.png"></p>
-<p><a href="http://ipython.org/">IPython</a> en acción. Programacion interactiva, investigacion reproducible y trabajo publicable, aplicada al análisis de datos obtenidos con sensores móviles (<em>aka</em> smartphones).</p>
-<h2 id="-qu-es-esto-">¿Qué es esto?</h2>
-<p>Este <code>repositorio</code> contiene el curso completo que voy a dar como parte del diplomado/curso <strong>nombre</strong> de la Maestría en Redes y Sistemas (RySi) que imparte cada año el Centro de Estudios LANIA (CEL). Se incluyen los archivos que integran todo el documento PDF final. </p>
-<p>[El repositorio completo del curso esta en este enlace.][6]</p>
-</div>
-</div>
-</div><aside class="notes">
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="antecedentes">Antecedentes</h2>
-<p>IPython se a vuelto una alternativa popular para realizar investigación científica interactiva. Este software extiende el intérprete estándard de Python agregando muchas funcionalidades útiles y prácticas, haciendo innecesario el uso intérprete estándard de Python.
-De manera adicional, IPython provee de una libreta (Notebook) basada en el web que hace el trabajo interactivo mucho más sencillo, pero más importante, que ha permitido que la realización del trabajo científico, en forma de artículos publicados, sea reproducible. Incluso, un libro completo se ha escrito y publicado, en forma digital, usando ésta plataforma.
-El desarrollo de ésta tecnología, junto con las herramientas de cómputo que le acompañan, y que son relevantes a mis intereses de investigación aquí en LANIA, me han llevado a compartirlas con ustedes en este curso, donde espero poderles transmitir las posibilidades de desarrollo en cómputo, en este caso orientadas al análisis de datos obtenidos con <em>sensores móviles</em>, que provee IPython por medio de IPython Notebook.</p>
-</div>
-</div>
-</div>
-    </aside></section>
-    </section><section>
-    <section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="http://ipython.org/_static/ipy_0.13.png" alt="http://ipython.org/_static/ipy_0.13.png"></p>
-</div>
-</div>
-</div></section><section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Para analizar datos con IPython, usaremos la siguiente colección de software para cómputo científico basado en Python y todos de código abierto:</p>
-<table>
-<thead>
-<tr>
-<th>paquetería</th>
-<th>descripción</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://ipython.org/">ipython</a></td>
-<td>Python interactivo y herramientas de programacion</td>
-</tr>
-<tr>
-<td><a href="http://pandas.pydata.org/">pandas</a></td>
-<td>implementación de estructuras para analisis de datos <code>dataframe</code> (basado en numpy)</td>
-</tr>
-<tr>
-<td><a href="http://www.scipy.org">scipy</a></td>
-<td>rutinas numéricas eficientes</td>
-</tr>
-<tr>
-<td><a href="http://matplotlib.org/">matplolib</a></td>
-<td>libreria para graficas</td>
-</tr>
-</tbody>
-</table>
-<!---
-[sympy][4]  |  matemáticas simbólicas
--->
-[matplotlib][5]  |  librería &quot;estandard&quot; para graficar
-<!---
-[sci-kit learn][5] | librería de `machine learning`
--->
-</div>
-</div>
-</div></section>
-    </section><section>
-    <section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="contenido-del-curso">Contenido del curso</h2>
-<p>El objetivo de éste curso será dar a conocer las herramientas que ofrece IPython Notebook por medio de la exploración y el análisis de datos obtenidos de dispositivos móviles, mejor conocidos como <em>smartphones</em>. Una vez concluida la exploración, veremos lo sencillo que es publicar el trabajo realizado en diversos formatos, con lo cual se cubre todo el proceso de investigación de manera interactiva, simple y reproducible. Algunos de los tópicos que cubriremos en las siguientes 4 semanas son:</p>
-<table>
-<thead>
-<tr>
-<th>tema</th>
-<th>descripción</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>python</td>
-<td>introduccion al lenguaje de programacion</td>
-</tr>
-<tr>
-<td>ipython</td>
-<td>introduccion a Python interactivo y las libretas</td>
-</tr>
-<tr>
-<td>git</td>
-<td>software de control de revision</td>
-</tr>
-<tr>
-<td>i/o</td>
-<td>adquiriendo datos en IPython Notebooks</td>
-</tr>
-<tr>
-<td>pandas</td>
-<td>analizando datos usando <code>pandas</code></td>
-</tr>
-<tr>
-<td>computo paralelo</td>
-<td>herramientas para procesar datos paralelamente</td>
-</tr>
-<tr>
-<td>reportes</td>
-<td>markdown, $\LaTeX$, documentando el trabajo realizado</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div><div style=display:none>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="los-archivos-procesados-de-las-presentaciones-pueden-consultarse-en-los-siguientes-enlaces-">Los archivos procesados de las presentaciones pueden consultarse en los siguientes enlaces:</h2>
-<table>
-<thead>
-<tr>
-<th>formato</th>
-<th>descripción</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.ipynb">IPython notebook</a></td>
-<td>.ipynb file to run in browser</td>
-</tr>
-<tr>
-<td><a href="http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.html">IPython html notebook</a></td>
-<td>converted to HTML and served online</td>
-</tr>
-<tr>
-<td><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython_pdf.pdf?raw=true">IPython pdf notebook</a></td>
-<td>converted to PDF for download (to be added, needs pandoc)</td>
-</tr>
-<tr>
-<td><a href="https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython_complete.pdf?raw=true">IPython pdf book</a></td>
-<td>converted to pdf and a front-page stitched to it)</td>
-</tr>
-<tr>
-<td><a href="http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.slides.html#/">Ipython reveal.js presentation</a></td>
-<td>converted to a reveal.js presentation and served online</td>
-</tr>
-<tr>
-<td><a href="http://nbviewer.ipython.org/urls/raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/pycon13_ipython.ipynb">Online IPython NBveiwer</a></td>
-<td>view on the ipython notebook viewer</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-    </div></section>
-    </section><section>
-    <section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="dependencias">Dependencias</h2>
-<p>Estas libretas estan preparadas y desarrolladas en GNU/Linux/OSX. Sin embargo, al ser esta herramienta una aplicacion web, es muy facil transportar todo a Windows, quizas sean necesarias algunas dependencias adicionales, pero no requiere ningun tipo de configuracion avanzada.</p>
-<table>
-<thead>
-<tr>
-<th>paquete</th>
-<th>descripcion</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://ipython.org/">IPython</a></td>
-<td>incluye la herramienta <code>nbconvert</code></td>
-</tr>
-<tr>
-<td><a href="http://johnmacfarlane.net/pandoc/">pandoc</a></td>
-<td>convertidor de documentos </td>
-</tr>
-<tr>
-<td><a href="http://miktex.org/">MiKTeX</a></td>
-<td>En caso de querer convertir texto de $\LaTeX$ a PDF</td>
-</tr>
-</tbody>
-</table>
+<h1 id="esenciales-de-python-0">Esenciales de Python 0</h1>
+<p>Esta libreta describe el proceso de instalacion mas sencillo para tener un ambiente de computo basado en <a href="http://ipython.org/">IPython</a> en su computadora.</p>
 </div>
 </div>
 </div>
@@ -2051,27 +1843,140 @@ El desarrollo de ésta tecnología, junto con las herramientas de cómputo que l
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="como-ejecutar-las-libretas-interactivas">Como ejecutar las Libretas Interactivas</h2>
-<p>Navega al directorio <code>src</code> del repositorio y de ahi ejecuta en el comando:</p>
-<pre><code class="language-python">      ipython notebook
-</code></pre>
-<p>Si todo resulta como debe, el navegador configurado como predeterminado debe abrirse y podrán experimentar seleccionando la <code>libreta</code></p>
+<p><img src="http://ipython.org/_static/IPy_header.png" alt="http://ipython.org/_static/IPy_header.png"></p>
+<p><a href="http://ipython.org/">IPython</a> es un conjunto de herramientas originalmente desarrolladas para hacer mas facil el trabajo de cientificos usando Python y datos. Permite combinar Python de manera exploratorio e interactiva con otros programas e incluso con texto y ecuaciones.</p>
+<p><em>IPython no es un lenguaje de programacion distinto, es solo un conjunto de programas para trabajar con Python.</em></p>
 </div>
 </div>
-</div></section>
-    </section><section>
-    <section>
-    
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="acerca-del-presentador">Acerca del presentador</h2>
+<h1 id="instalando-ipython">Instalando IPython</h1>
+<p>Hay varias formas de instalar Python y el ambiente de IPython Notebook. </p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;iframe src=http://ipython.org/install.html width=750 height=350&gt;&lt;/iframe&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Si estan usando Windows o MAC OS X, recomendamos descargar e instalar <a href="http://continuum.io/downloads.html">Anaconda</a>, que es un instaladaor de Python que contiene un conjunto herramientas utiles para empezar a desarrollar programas (incluyendo IPython Notebook).</p>
+<p><strong>Anaconda es un archivo relativamente grande para descargar (~ 300Mb) asi que se recomieda descargarlo antes del inicio del curso.</strong></p>
+<p>Anaconda viene con una version propia de Python 2.7, IPython Notebook, mas otras librerias como <code>matplotlib</code>, y un administrador de paquetes (&quot;conda&quot;) que puede usarse para instalar de manera muy sencilla otros paquetes o versiones de Python.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;iframe src=https://store.continuum.io/cshop/anaconda/ width=750 height=350&gt;&lt;/iframe&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Si estan usando GNU/Linux, Anaconda tambien esta disponible, pero se recomienda tratar de instalar los programas usando los repositorios de la distribucion (ver Otras Alternativas).</p>
+<h2 id="otras-alternativas">Otras Alternativas</h2>
+<p><strong>Esta seccion es solamente si no quieren o no pueden usar Anaconda</strong></p>
+<p>Anaconda (ver arriba) es la forma mas sencilla de tener un sistema funcionando. Existen otras opciones de instalacion que pueden pronar si desean intentar algo diferente:</p>
 <ul>
-<li>Doctor en Ingenieria Mecanica con Maestrias en <a href="http://das.ucdavis.edu/">Applied Sciences</a> y <a href="http://www.posgrado.fisica.unam.mx/beta/drupal/">Ciencias Fisicas</a>. Actualmente realizo una estancia academica en <a href="http://lania.mx">LANIA</a> realizand investigacion relacionada al computo paralelo de alto rendimiento para resolver problemas. </li>
-<li>Uso python y IPython Notebooks todos los dias para realizar, organizar, documentar y distribuir mi trabajo, como una alternativa completa y auto-contenida para llevar a cabo mis actividades.</li>
+<li><p>En Linux, la mayoria de los adminstradores de paquetes incluye IPython Notebook. Por ejemplo, en Ubuntu o Debian:</p>
+<pre><code>  sudo apt-get install ipython-notebook python-matplotlib
+</code></pre></li>
+<li><p>Si tienen instalado &#39;pip&#39;, pueden obtener IPython y matplotlib via &#39;pip&#39; de la siguiente manera:</p>
+<pre><code>  pip install ipython[notebook]
+</code></pre></li>
 </ul>
+<p>(En OS X puede ser necesario tener Xcode para compilar las dependencias.)</p>
+<ul>
+<li>Si no pueden instalar IPython Notebook o hacerlo funcionar en su computadore, existe un servicio web llamado <a href="https://www.wakari.io/">Wakari</a> que es gratis. En este caso los programas no se ejecutan en su computadora, sino &quot;en la nube&quot; en los servidores de Wakari, y solamente veran los resultados en su navegador.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;iframe src=https://www.wakari.io/wakari width=750 height=350&gt;&lt;/iframe&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="nota-acerca-de-python-3">Nota acerca de Python 3</h2>
+<p>Anaconda y otros instaladores vienen con Python version 2.</p>
+<p>El mundo de Python esta migrando lentamente hacia Python 3. IPython esta disponible para ambos 2 &amp; 3 y Anaconda permite elegir entre 2.7 y 3.4.</p>
+<p>Entre Python 2 y Python 3 hay algunas incompatibilidades en la sintaxis del lenguaje. Los programas que presentaremos usaremos en este curso estan diseñados para Python 2 y es muy probable que no funcionen correctamente con Python 3 aun.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="iniciando-las-ipython-notebook">Iniciando las IPython Notebook</h2>
+<p>La interaccion con IPython Notebook es a traves de un navegador de internet. El programa crea un &quot;servidor web&quot; local en su computadora al que se conecta.</p>
+<p>En Windows, puede encontrarse un programa para IPython Notebook bajo Anaconda en el menu de inicio.</p>
+<p>En Linux o en OS X, IPython Notebook puede inicializarse desde la linea de comando, abriendo una terminal, navegando a un directorio donde se desean guardar los archivos y documentos de las libretas (usando &#39;cd&#39;) y desde esa ruta escribiendo el siguiente comando:</p>
+<pre><code>ipython notebook
+</code></pre>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Si observan la terminal, veran algo como esto:</p>
+<pre><code>[NotebookApp] Using existing profile dir: u&#39;/home/gus/.ipython/profile_default&#39;
+[NotebookApp] Serving notebooks from /home/gus/workshops
+[NotebookApp] The IPython Notebook is running at: http://127.0.0.1:8888/
+[NotebookApp] Use Control-C to stop this server and shut down all kernels.
+</code></pre><p>Automaticamente debe abrirse un navegador de internet mostrando la interface de IPython Notebook. En caso contrario puede copiarse la direccion en la barra del navegador.</p>
+<p>A pesar de que interactuan con IPython Notebook usando su navegador, Notebook corre y ejecuta en su computadora en ese ventana. Solamente ustedes tienen acceso a ella.</p>
 </div>
 </div>
 </div>
