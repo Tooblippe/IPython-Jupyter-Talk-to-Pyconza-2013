@@ -1717,15 +1717,16 @@ div.output_prompt {
 <body>
 <div class="reveal">
 <div class="slides">
-
+<div style=display:none>
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[9]:
+In&nbsp;[1]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="o">%</span><span class="k">run</span> <span class="n">talktools</span><span class="o">.</span><span class="n">py</span>
+<div class="highlight"><pre><span class="o">%</span><span class="k">run</span> <span class="o">../</span><span class="n">talktools</span><span class="o">.</span><span class="n">py</span>
 </pre></div>
 
 </div>
@@ -1828,27 +1829,26 @@ In&nbsp;[9]:
 </div>
 
 </div>
+    </div></section>
+    </section><section>
+    <section>
+    
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="esenciales-de-python-0">Esenciales de Python 0</h1>
+<h1 id="instalacion-y-configuracion-de-ipython">Instalacion y configuracion de IPython</h1>
 <p>Esta libreta describe el proceso de instalacion mas sencillo para tener un ambiente de computo basado en <a href="http://ipython.org/">IPython</a> en su computadora.</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="http://ipython.org/_static/IPy_header.png" alt="http://ipython.org/_static/IPy_header.png"></p>
 <p><a href="http://ipython.org/">IPython</a> es un conjunto de herramientas originalmente desarrolladas para hacer mas facil el trabajo de cientificos usando Python y datos. Permite combinar Python de manera exploratorio e interactiva con otros programas e incluso con texto y ecuaciones.</p>
 <p><em>IPython no es un lenguaje de programacion distinto, es solo un conjunto de programas para trabajar con Python.</em></p>
 </div>
 </div>
-</div>
+</div></section>
+    </section><section>
+    <section>
+    
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -1858,11 +1858,12 @@ In&nbsp;[9]:
 <p>Hay varias formas de instalar Python y el ambiente de IPython Notebook. </p>
 </div>
 </div>
-</div>
+</div><div class="fragment">
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[]:
+In&nbsp;[2]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1873,22 +1874,52 @@ In&nbsp;[]:
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[2]:</div>
+
+<div class="output_html rendered_html output_subarea output_pyout">
+<iframe src=http://ipython.org/install.html width=750 height=350></iframe>
 </div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="windows-mac-osx">Windows/MAC-OSX</h2>
 <p>Si estan usando Windows o MAC OS X, recomendamos descargar e instalar <a href="http://continuum.io/downloads.html">Anaconda</a>, que es un instaladaor de Python que contiene un conjunto herramientas utiles para empezar a desarrollar programas (incluyendo IPython Notebook).</p>
+<h2 id="linux">Linux</h2>
+<p>Si estan usando GNU/Linux, Anaconda tambien esta disponible, pero se recomienda tratar de instalar los programas usando los repositorios de la distribucion (ver Otras Alternativas).</p>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Anaconda es un archivo relativamente grande para descargar (~ 300Mb) asi que se recomieda descargarlo antes del inicio del curso.</strong></p>
 <p>Anaconda viene con una version propia de Python 2.7, IPython Notebook, mas otras librerias como <code>matplotlib</code>, y un administrador de paquetes (&quot;conda&quot;) que puede usarse para instalar de manera muy sencilla otros paquetes o versiones de Python.</p>
 </div>
 </div>
-</div>
+</div></section><section>
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[]:
+In&nbsp;[3]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1899,13 +1930,29 @@ In&nbsp;[]:
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[3]:</div>
+
+<div class="output_html rendered_html output_subarea output_pyout">
+<iframe src=https://store.continuum.io/cshop/anaconda/ width=750 height=350></iframe>
 </div>
+
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+    
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Si estan usando GNU/Linux, Anaconda tambien esta disponible, pero se recomienda tratar de instalar los programas usando los repositorios de la distribucion (ver Otras Alternativas).</p>
 <h2 id="otras-alternativas">Otras Alternativas</h2>
 <p><strong>Esta seccion es solamente si no quieren o no pueden usar Anaconda</strong></p>
 <p>Anaconda (ver arriba) es la forma mas sencilla de tener un sistema funcionando. Existen otras opciones de instalacion que pueden pronar si desean intentar algo diferente:</p>
@@ -1923,11 +1970,12 @@ In&nbsp;[]:
 </ul>
 </div>
 </div>
-</div>
+</div></section><section>
+    
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[]:
+In&nbsp;[4]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1938,7 +1986,24 @@ In&nbsp;[]:
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[4]:</div>
+
+<div class="output_html rendered_html output_subarea output_pyout">
+<iframe src=https://www.wakari.io/wakari width=750 height=350></iframe>
 </div>
+
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+    
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -1950,7 +2015,10 @@ In&nbsp;[]:
 <p>Entre Python 2 y Python 3 hay algunas incompatibilidades en la sintaxis del lenguaje. Los programas que presentaremos usaremos en este curso estan diseñados para Python 2 y es muy probable que no funcionen correctamente con Python 3 aun.</p>
 </div>
 </div>
-</div>
+</div></section>
+    </section><section>
+    <section>
+    
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -1964,7 +2032,8 @@ In&nbsp;[]:
 </code></pre>
 </div>
 </div>
-</div>
+</div></section><section>
+    
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -1979,7 +2048,32 @@ In&nbsp;[]:
 <p>A pesar de que interactuan con IPython Notebook usando su navegador, Notebook corre y ejecuta en su computadora en ese ventana. Solamente ustedes tienen acceso a ella.</p>
 </div>
 </div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="ejercicio">Ejercicio</h2>
+<p>Verifiquen que el ambiente de IPython incluyendo IPython Notebook esta correctamente instalado en su sistema, y ejecuten esta libreta.</p>
+<p>Si no instalaron el ambiente previo al inicio del curso, soliciten al instructor un <em>usb</em> con el instalador de <em>Anaconda</em>, esto con el fin de evitar una congestion en el ancho de banda de la conexion a internet.</p>
+</div>
+</div>
+</div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Nuestro siguiente tema es una <a href="Lib01_Esenciales_IPNShowcase.ipynb">introduccion rapida a IPython.</a></p>
+</div>
+</div>
+</div>
+    </div>
 </div>
 </div>
 
