@@ -1,6 +1,6 @@
-"""Simple tools to style a talk presented from an IPython Notebook.
-
-Author: Fernando Perez <fernando.perez@berkeley.edu>
+"""
+	Simple tools to style an IPython Notebook.
+	Author: htapia@lania.edu.mx (modified from Fernando Perez <fernando.perez@berkeley.edu>)
 """
 
 #-----------------------------------------------------------------------------
@@ -80,12 +80,11 @@ def CustomPlot():
     import json
     import matplotlib
     from IPython.core.pylabtools import figsize
-    s = json.load( open("../../styles/matplotlibrc.json") )
+    s = json.load( open("../static/matplotlibrc.json") )
     matplotlib.rcParams.update(s)
     figsize(18, 6) 
 #-----------------------------------------------------------------------------
 # Load and publish CSS
 #-----------------------------------------------------------------------------
 if __name__ == '__main__':
-    display(HTML(open("../../styles/custom.css", "r").read()))
-    CustomPlot()
+    display(HTML(open("../static/custom.css", "r").read()))
