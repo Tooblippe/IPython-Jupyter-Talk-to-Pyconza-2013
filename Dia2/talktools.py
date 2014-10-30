@@ -81,11 +81,11 @@ def CustomPlot():
     import json
     import matplotlib
     from IPython.core.pylabtools import figsize
-    s = json.load( open("../styles/matplotlibrc.json") )
+    s = json.load( open("../../styles/matplotlibrc.json") )
     matplotlib.rcParams.update(s)
     figsize(18, 6) 
 #-----------------------------------------------------------------------------
 # Load and publish CSS
 #-----------------------------------------------------------------------------
 if __name__ == '__main__':
-    display(HTML(open("../styles/matstyle.css", "r").read()))
+    display(HTML(open("../../styles/matstyle.css", "r").read()))
