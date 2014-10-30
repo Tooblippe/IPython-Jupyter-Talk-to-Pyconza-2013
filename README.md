@@ -12,6 +12,9 @@ El repositorio
 ---------------
 El contenido del curso se ofrece en el formato de IPython Notebooks y se encuentra completamente contenido en este repositorio de `GitHub`. Para ver el contenido pueden seguir los enlaces que se localizan en la parte superior de esta pagina. Tambien pueden descargarlos directamente a su computadora.
 
+[Siguiendo este enlace](http://nbviewer.ipython.org/github/htapia/lania.ipython/blob/master/Index.ipynb) podran acceder al contenido estatico del curso.
+
+
 El curso
 --------
 El curso consiste en 24 horas de tutoriales y practicas usando el lenguaje de programacion Python, con el objetivo final de crear una aplicacion sencilla que puede, al menos en principis, implementarse en un dispositivo Android.
