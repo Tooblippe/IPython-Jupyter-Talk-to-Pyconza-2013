@@ -18,19 +18,19 @@ El curso consiste en 24 horas de tutoriales y practicas usando el lenguaje de pr
 
 Las 24 horas se cubriran a lo largo de 3 dias, 8 horas cada uno, tentativamente en dos sesiones de aproximadamente 4 hrs. cada una. Las fechas y agenda (tentativas) son:
 
-| Fecha   | Dia/Sesion   | Tema |
-|:--------:|----:|----:|
-|11/01/2014 | 1/1 |Presentacion y preliminares|
+| Fecha   | Dia/Sesion   | Tema | Enlace |
+|:--------:|----:|----:|----:|
+|11/01/2014 | 1/1 |Presentacion y preliminares| [Contenido](Dia1/Index.ipynb)|
 |11/01/2014 | 1/2 |Instalacion y Configuracion|
 |11/01/2014 | 1/3 |Introduccion al lenguaje Python |
 |11/01/2014 | 1/4 |IPython Notebooks |
 |11/01/2014 | 1/5 |Control de Revision |
 ||
-|11/08/2014 | 2/1 |Esenciales de (I)Python |
+|11/08/2014 | 2/1 |Esenciales de (I)Python | [Contenido](Dia2/Index.ipynb)|
 |11/08/2014 | 2/2 |Procesamiento y Analisis de Datos 1 |
 |11/08/2014 | 2/3 |Procesamiento y Analisis de Datos 2 |
 ||
-|11/15/2014 | 3/1 |Generando datos usando sensores moviles|
+|11/15/2014 | 3/1 |Generando datos usando sensores moviles| [Contenido](Dia3/Index.ipynb)|
 |11/15/2014 | 3/2 |Distribuyendo datos en la nube |
 |11/15/2014 | 3/3 |Accesando datos de la nube |
 |11/15/2014 | 3/4 |Procesamiento y Analisis de Datos 3|
