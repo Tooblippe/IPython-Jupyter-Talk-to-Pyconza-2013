@@ -22,6 +22,14 @@ El curso cubrira los siguiente contenidos
 3. Interaccion con sensores de dispositivos moviles usando SL4A y Python
 4. Analisis de datos usando Python
 
+Requisitos
+----------
+Para este curso se requiere
+* Una computadora con SO Windows/MAC OS X/Linux
+* Un dispositivo portatil con el SO Android preferentemente version >4
+* Cable USB para conectar el dispositvo movil a su computadora
+* Internet para descargar archivos, datos, etc.
+
 El repositorio
 ---------------
 El contenido del curso se ofrece en el formato de IPython Notebooks y se encuentra completamente contenido en este repositorio de `GitHub`. Para ver el contenido pueden seguir los enlaces que se localizan en la parte superior de esta pagina. Tambien pueden descargarlos directamente a su computadora.
@@ -34,13 +42,13 @@ El curso consiste en 24 horas de tutoriales y practicas donde usaremos el lengua
 
 Las 24 horas se cubriran a lo largo de 4 dias, 6 horas cada uno, de acuerdo al siguiente calendario:
 
-| Fecha   | Dia/Sesion   | Tema | Enlace |
+| Fecha   | Dia/Sesion/Libreta   | Tema | Enlace |
 |:--------:|----:|----:|----:|
-|10/24/2015 | 1/1 |Presentacion y preliminares| [Contenido](Dia1/Index.ipynb) |
-|10/24/2015 | 1/2 |Instalacion y Configuracion de IPython|
-|10/24/2015 | 1/3 |Instalacion y Configuracion de SL4A |
-|10/24/2015 | 1/4 |Instalacion y Configuracion de Github |
-|10/24/2015 | 1/5 |Ejercicios |
+|10/24/2015 | 1/1/- |Presentacion y preliminares| [Contenido](Dia1/Index.ipynb) |
+|10/24/2015 | 1/1/1 |Instalacion y Configuracion de IPython|
+|10/24/2015 | 1/1/2 |Instalacion y Configuracion de SL4A |
+|10/24/2015 | 1/2/1 |Instalacion y Configuracion de Python y Android localmente |
+|10/24/2015 | 1/2/2 |Ejercicios |
 ||
 |10/31/2015 | 2/1 |Revision Dia 1 | [Contenido](Dia2/Index.ipynb)|
 |10/31/2015  | 2/2 |Adquisicion de Datos 1 |
