@@ -50,9 +50,10 @@ Las 24 horas se cubriran a lo largo de 4 dias, 6 horas cada uno, de acuerdo al s
 |10/24/2015 | 1/2/1 |Instalacion y Configuracion de Python y Android localmente |
 |10/24/2015 | 1/2/2 |Ejercicios |
 ||
-|10/31/2015 | 2/1 |Revision Dia 1 | [Contenido](Dia2/Index.ipynb)|
-|10/31/2015  | 2/2 |Adquisicion de Datos 1 |
-|10/31/2015  | 2/3 |Adquisicion de Datos 2 |
+|10/31/2015 | 2/1/0 |Revision Dia 1 | [Contenido](Dia2/Index.ipynb)|
+|10/31/2015  | 2/1/1 |Adquisicion de Datos 1 |
+|10/31/2015  | 2/1/2 |Adquisicion de Datos 1 |
+|10/31/2015  | 2/2/1 |Adquisicion de Datos 2 |
 ||
 |11/14/2015 | 3/1 |Generando datos usando sensores moviles| [Contenido](Dia3/Index.ipynb)|
 |11/14/2015 | 3/2 |Distribuyendo datos en la nube |
