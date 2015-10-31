@@ -1,135 +1,100 @@
-![http://ipython.org/_static/IPy_header.png](http://ipython.org/_static/IPy_header.png)
+![http://laniamx.files.wordpress.com/2013/07/cropped-logo.jpg](http://laniamx.files.wordpress.com/2013/07/cropped-logo.jpg)
 
-[IPython](http://ipython.org/) in action creating reproducible and publishable interactive work.
+![http://ipython.org/_static/IPy_header.png](http://ipython.org/_static/IPy_header.png) 
 
-What is this?
-------
-
-This `repo` contains the complete [talk](http://za.pycon.org/talks/10/) I intend to deliver (have delivered) at [PyConZA2013](http://za.pycon.org/). It contains all the files needed to build a final publishable PDF document from an interactive notebook and even adds a custom front page.
-
-[The Complete Talk GitHub Website can be accessed here][6]
-
-Background
--------------
-IPython had become a popular choice for doing interactive scientific work. It extends the standard Python interpreter and adds many useful new futures. There is really no need to use the standard Python interpreter anymore.
-In addition to this IPython offers a web based Notebook that makes interactive work much easier, and have been used to write repeatable scientific papers and more recently a book has been written using this platform, the online Notebook Viewer and GitHub. The development of this material and tool chain to compile the notebook to a publishable PDF, has inspired me to maybe even try and turn this into a complete (free) book. Let’s see what happens.
-
-Combining the most common scientific packages with IPython makes it a formidable tool and serious competition to R. ( _R is still awesome!_ )
-
-![http://ipython.org/_static/ipy_0.13.png](http://ipython.org/_static/ipy_0.13.png)
-
-As a matter of fact you can run R in the notebook session, embed YouTube Videos, Images and lots more but let me not get ahead of myself....
-
-The science stack consists of (but not limited to):
-
-package  |  description
----  |  ---
-[pandas][1]  |  `dataframe` implementation (based on numpy)
-[scipy][2]  |  efficient numerical routines
-[sympy][3]  |  `symbolic mathematics`
-[matplotlib][4]  |  python standard `plotting` package
-[sci-kit learn][5] | machine learning and `well documented!`
-
-Talk contents
---------
-The talk will aim to introduce these tools and explore some practical interactive examples. Once completed it will be shown how easy it is to publish your work to various formats. Some of the topics covered in the talk are listed below:
-
-item   | description
----- |  -------
-ipython | quick intro to ipython and the notebook
-setup  | set up your environment / get the talk files
-notebook basics | navigate the notebook
-notebook magic’s | special notebook commands that can be very useful
-getting input   | as from IPython 1.00 getting input from sdtin is possible
-local files | how to link to local files in the notebook directory
-plotting	| how to create beautiful inline plots
-symbolic math | quick demo of sympy model
-pandas  | quick intro to pandas dataframe
-typesetting | include markdown, Latex via MathJax
-loading code | how to load a remote .py code file
-gist         | paste some of your work to gist for sharing
-js		| some javascript examples
-customising | loading a custom css and custom matplotlib config file
-git cell    | add code to a special cell that would commit to git
-output formats | how to publish your work to html, pdf or jeveal.js presentation
-
-
-Get the processed presentation files here:
-------
-format  | description
-------- | ------------
-[IPython notebook](https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/pycon13_ipython.ipynb)  |  .ipynb file to run in browser
-[IPython html notebook](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.html) | converted to HTML and served online
-[IPython pdf notebook](https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython_pdf.pdf?raw=true)  | converted to PDF for download (to be added, needs pandoc)
-[IPython pdf book](https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython_complete.pdf?raw=true)  | converted to pdf and a front-page stitched to it)
-[Ipython reveal.js presentation](http://htmlpreview.github.io/?https://github.com/Tooblippe/zapycon2013_ipython_science/blob/master/src/output/pycon13_ipython.slides.html#/) | converted to a reveal.js presentation and served online
-[Online IPython NBveiwer](http://nbviewer.ipython.org/urls/raw.github.com/Tooblippe/zapycon2013_ipython_science/master/src/pycon13_ipython.ipynb)  | view on the ipython notebook viewer
-
-
-Dependencies
--------------
-I was given the challenge to develop all of this on a Windows machine as some of my sponsors want to demonstrate that this stuff can not only be done on GNU/Linux/OSX. So all the tool chains are Windows based. If you know Linux, then you are the type of person that would easily port this. That being said the Windows GitHub client is refreshing. I have also added a MacBook Air to my arsenal and have been porting the toolchain to Mac aswell and it seems to be working fine. 
-
-package  |  description
--------- | ------------
-IPython  | To use NBConvert you need V1.00. If you only want to use the interactive notebook then v0.13 will be ok.
-pandoc 	 | The document converter used by IPythonr
-MikeTex  | If you want to do a TEX to PDF transform. I had so many issues with the TEX to PDF conversion by NBConvert, so settled for wkhtmltopdf(below) to convert HTML to PDF rather. (Convert notebook to HTML with NBconvert and then from HTML to PDF with wkhtmltopdf
-wkhtmltopdf  | Convert HTML to PDF (i could only install this on windows)
-wkpdf		| I couldn't get wkhtmltopdf to work  on os x so i installed wkpdf for handling the HTML to PDF conversion on my Mac. It's a Ruby Gem install and painless.
-pdftk   |  Can be used to combine PDF's. In this case add a frontpage to the generated IPython notebook PDF. Only available for Windows.
-*ImageMagick | for compressing the PDF. Still experimenting with this.(have not got this working yet so not needed)
-*GhostScript | needed by ImageMagick(not needed as PDF compression is not functional yet)
-anaconda  | install anaconda from Continuum Analytics. Almost all the Python packages are included and it has a virtual environment manager via it's console application `conda'
-
- 
-How to run the Interactive Notebook
---------
-Navigate to the `src` directory and run from the command line:
-
- ```python
-      ipython notebook --pylab inline
-```
-
-If everything works your browser should open and you can select the `notebook` and start experimenting!
- 
-PDF, HTML, Slideshow Build Script
+Introduccion
 ------------
-There is a build script in the `src` directory. It is an IPython file. You can basically build shell scripts this way. To use the power of IPython commands save the file with the `.ipy` extension and call it with IPython. Even the magic’s work. To build the document use `ipython builddocs.ipy` You will have to change the paths to the software however. Currently I can use the build script on Windows and on my Mac but it is a bit of a hack.
 
-Cross Platform Output Rendering
---------
-I have tested the HTML outputs on my Galaxy S3 and S4, IPAD and Nexus7. They render very well. Even the downloaded PDF was easily readable on the NEXUS 7 in landscape mode. In conclusion the produces work is really very well packaged and easily consumed on most platforms. This is not bad, and all done with open source software.
+Bienvenidos al curso de Temas Avanzados en Ciencias de la Computación de la Mestria en Redes y Sistemas, RySi del Laboratorio Nacional de Informatica Avanzada, LANIA.
 
-Some interesting links
------------------------
-* [A book written with IPython Notebook][7]
-* [Notebook Viewer][8]
-* [Anaconda - Installing almost everything you need][9]
+En este curso desarrollaremos competencias en el uso del ecosistema de programacion de IPython Notebooks para acceder, interactuar y analizar datos provenientes de diversas fuentes, con enfasis a conjuntos de datos obtenidos por medio de los sensores que se encuentran en algunos dispositivos móviles modernos (aka smartphones), incluyendo imagenes, datos de movimiento, etc.
 
+IPython es un ecosistema basado en el lenguaje de programacion Python, que proporciona un serie de herramientas para desarrollar aplicaciones de manera interactiva y reproducible. El lenguaje de programacion es interpretado simple, conciso, orientado a objetos e interactivo, ademas de ser codigo abierto. Por otro lado, existen muchas librearias que lo vuelven un ambiente idoneo para el desarrollo y despliegue de aplicaciones complejas. 
 
-About the presenter
+El Scripting Layer for Android, SL4A, es un aplicacion de codigo abierto que permite ejecutar programas desarrollados en lenguajes interpretados sobre el SO de Android, y proporciona una API de alto nivel que permite a los programas interactuar con el dispositivo Android facilitando el acceso a los datos de los sensores, enviar mensajes de texto, correos electronicos, etc.
+
+## Contenido
+El curso cubrira los siguiente contenidos
+
+1. El ambiente de programacion IPython Notebooks
+2. El Scripting Layer for Android SL4A
+3. Github y control de revision
+3. Interaccion con sensores de dispositivos moviles usando SL4A y Python
+4. Analisis de datos usando Python
+
+Requisitos
 ----------
-* I am an Electrical Engineer and is currently working for a [consulting firm][10] where I manage the Business Analytics and Quantitative Decision Support Services division.
-* I use python in my day to day work as a practical alternative to the limitations of EXCEL in using large data sets.
-* [LinkedIn][11]
-* I am also a co-founder at [House4Hack][12]
+Para este curso se requiere
+* Una computadora con SO Windows/MAC OS X/Linux
+* Un dispositivo portatil con el SO Android preferentemente version >4
+* Cable USB para conectar el dispositvo movil a su computadora
+* Internet para descargar archivos, datos, etc.
 
+El repositorio
+---------------
+El contenido del curso se ofrece en el formato de IPython Notebooks y se encuentra completamente contenido en este repositorio de `GitHub`. Para ver el contenido pueden seguir los enlaces que se localizan en la parte superior de esta pagina. Tambien pueden descargarlos directamente a su computadora.
 
+[Siguiendo este enlace](http://nbviewer.ipython.org/github/htapia/lania.ipython/blob/master/Index.ipynb) podran acceder al contenido estatico del curso.
 
-  [1]: http://pandas.pydata.org/
-  [2]: http://www.scipy.org/
-  [3]: http://sympy.org/en/index.html
-  [4]: http://matplotlib.org/
-  [5]: http://scikit-learn.org/
-  [6]: http://tooblippe.github.io/zapycon2013_ipython_science
-  [7]: http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
-  [8]: http://nbviewer.ipython.org/
-  [9]: http://www.continuum.io/downloads
-  [10]: http://www.eon.co.za/index.php/our-services-main/our-services/business-analytics
-  [11]: http://www.linkedin.com/in/tobienortje
-  [12]: http://www.house4hack.co.za/
+El curso
+--------
+El curso consiste en 24 horas de tutoriales y practicas donde usaremos el lenguaje de programacion Python para crear una aplicacion sencilla que puede implementarse en un dispositivo Android.
 
+Las 24 horas se cubriran a lo largo de 4 dias, 6 horas cada uno, de acuerdo al siguiente calendario:
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Tooblippe/zapycon2013_ipython_science/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+| Fecha   | Dia/Sesion/Libreta   | Tema | Enlace |
+|:--------:|----:|----:|----:|
+|10/24/2015 | 1/1/- |Presentacion y preliminares| [Contenido](Dia1/Index.ipynb) |
+|10/24/2015 | 1/1/1 |Instalacion y Configuracion de IPython|
+|10/24/2015 | 1/1/2 |Instalacion y Configuracion de SL4A |
+|10/24/2015 | 1/2/1 |Instalacion y Configuracion de Python y Android localmente |
+|10/24/2015 | 1/2/2 |Ejercicios |
+||
+|10/31/2015 | 2/1/0 |Revision Dia 1 | [Contenido](Dia2/Index.ipynb)|
+|10/31/2015  | 2/1/1 |Adquisicion de Datos 1 |
+|10/31/2015  | 2/1/2 |Adquisicion de Datos 1 |
+|10/31/2015  | 2/2/1 |Adquisicion de Datos 2 |
+||
+|11/14/2015 | 3/1 |Generando datos usando sensores moviles| [Contenido](Dia3/Index.ipynb)|
+|11/14/2015 | 3/2 |Distribuyendo datos en la nube |
+|11/15/2014 | 3/3 |Accesando datos de la nube |
+|11/15/2014 | 3/4 |Procesamiento y Analisis de Datos 3|
+|11/15/2014 | 3/5 |Controlando dispositivo desde Python 1|
+|11/15/2014 | 3/6 |Proyecto final|
+||
+|11/21/2014 | 3/5 |Proyecto final |
 
+Evaluacion
+==========
+El curso sera evaluado considerando los siguientes criterios:
+
+1. Asistencia y participacion
+3. Ejercicios y actividades
+4. Proyecto final
+
+## Asistencia y Participacion
+Es obligatorio estar presente durante 24 horas y participar en las actividades que se van a llevar a cabo durante ellas. No se permitiran ausencias injustificadas.
+
+## Ejercicios y actividades
+La realizacion de los ejercicios es tambien considerada parte de la participacion ya que por la naturaleza y el contenido del curso, este es altamente interactivo. Cada tema se presenta por medio de libretas interactivas donde se escribe y ejecuta codigo para presentar conceptos y resolver problemas. 
+
+## El proyecto final
+La ultima parte de su evaluacion consistira en un pequeño proyecto final que desarrolle sobre los conceptos que aprenderan durante el curso.
+
+El objetivo central sera desarrollar un programa que pueda ejecutarse en un dispositivo movil _Android_ usando S4LA y Python, y que realice algun proceso de adquisicion y procesamiento de datos usando los sensores disponibles en su dispositivo. El tema del proyecto final es libre; se sugiere que sea ligado a sus intereses profesionales y/o personales. Ejemplos desarrollados en el pasado incluyen
+
+* Granjas geograficas virtuales (geogranjas)
+* Cuenta pasos y escalones
+* Control de un robot
+
+El proyecto final puede desarrollarse de manera individual o en equipos de no mas de tres personas, y se desarrollara durante las ultimas dos sesiones de clase.
+
+El proyecto debera entregarse en forma digital a mas tardar el dia 11/21/2014 a las 16:00 hrs. La entrega del proyecto debe consistir de:
+
+1. Un documento (digital) breve describiendo el proyecto, incluyendo introduccion al problema que se desea abordar, metodologia e implementacion y resultados obtenidos.
+
+2. Uno o varios programas que puedan ejecutarse en el dispositivo movil y que reproduzcan los resultados obtenidos descritos en el documento que acompaña la entrega.
+
+La entrega se hara a traves de los canales que para este fin seran establecidos.
+
+En caso de que cualquiera de estos requisitos **no** se cumpla, se considerara como **Nula** la entrega del proyecto, perjudicando la evaluacion hasta en un 45%.
